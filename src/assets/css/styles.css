@@ -1,0 +1,33 @@
+*,:root
+{
+    --blue: #2c3159;
+    --dark-blue: #222436;
+    --green: #74aa4d;
+}
+
+body, #app, .v-application {
+    font-family: 'Sen', sans-serif;
+    background: var(--blue);
+    color:#fff;
+}
+*::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 64px;
+    background: var(--dark-blue);
+    
+  }
+*::-webkit-scrollbar-thumb {
+    background-color: white;
+    border: 1px solid var(--dark-blue);
+    border-radius: 64px;
+    opacity: .5;
+    cursor: grab;
+  }
+  *::-webkit-scrollbar-thumb:active {
+    cursor: grabbing;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 64px;
+  }
