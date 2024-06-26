@@ -1,33 +1,77 @@
-*,:root
-{
-    --blue: #2c3159;
-    --dark-blue: #222436;
-    --green: #74aa4d;
+
+@import url(https://db.onlinewebfonts.com/c/ea250342ec4016561ba9e791c2f39c11?family=Posterama+2001+W04+Regular);
+
+*,
+:root {
+  --blue: #2c3159;
+  --dark-blue: #222436;
+  --lighter-blue: #6f76af;
+  --light-blue: #464c7c;
+  --green: #74aa4d;
 }
 
-body, #app, .v-application {
-    font-family: 'Sen', sans-serif;
-    background: var(--blue);
-    color:#fff;
+body,
+#app,
+.v-application {
+  font-family: "Sen", sans-serif;
+  background: var(--dark-blue);
+  color: #fff;
 }
 *::-webkit-scrollbar {
-    width: 8px;
-    border-radius: 64px;
-    background: var(--dark-blue);
-    
-  }
+  width: 8px;
+  border-radius: 64px;
+  background: var(--dark-blue);
+}
 *::-webkit-scrollbar-thumb {
-    background-color: white;
-    border: 1px solid var(--dark-blue);
-    border-radius: 64px;
-    opacity: .5;
-    cursor: grab;
-  }
-  *::-webkit-scrollbar-thumb:active {
-    cursor: grabbing;
-  }
-  
-  *::-webkit-scrollbar-track {
-    background-color: transparent;
-    border-radius: 64px;
-  }
+  background-color: white;
+  border: 1px solid var(--dark-blue);
+  border-radius: 64px;
+  opacity: 0.5;
+  cursor: grab;
+}
+*::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 64px;
+}
+
+.canvas-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222436;
+  overflow: hidden !important;
+}
+.heading, h1, h2, h3, h4, h5, h6
+{
+  font-family: "Posterama 2001 W04 Regular", sans-serif !important;
+}
+.particles-canvas {
+  width: 100%;
+  height: 100%;  
+  filter: blur(1.5rem);
+}
+#home {
+  position: relative;
+}
+#mesh {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 2;
+  background: url(../images/mesh.png) center bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  padding: 30px;
+}
+.homelogo
+{
+  width: 100%;
+  max-width: 500px;
+}

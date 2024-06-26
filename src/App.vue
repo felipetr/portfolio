@@ -1,23 +1,26 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <HomeSection/>
+      <AboutSection/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+
+import HomeSection from '@/components/HomeSection.vue';
+import AboutSection from '@/components/AboutSection.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    HomeSection,
+    AboutSection
   },
-
-  data: () => ({
-    //
-  }),
+  mounted() {
+    document.title = process.env.VUE_APP_TITLE || '';
+  }
 };
 </script>
