@@ -15,8 +15,10 @@ module.exports = {
   rules: {
     'no-plusplus': 'off',
     'brace-style': 'off',
+    'no-console': 'off',
     'arrow-parens': 'off',
     'no-param-reassign': 'off',
+    quotes: 'off',
     'no-unused-vars': 'off',
     'func-names': 'off',
     'no-mixed-operators': 'off',

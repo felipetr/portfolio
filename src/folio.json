@@ -1,0 +1,165 @@
+{
+  "cards": [
+    {
+      "cardtitle": "Ágora",
+      "externalUrl": "https://agora.app.br/admin",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Aplicativo Web",
+        "esES": "Diseño y Desarrollo - Aplicación Web",
+        "enUS": "Design and Development - Web App"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento do MVP do WebApp em PHP, sendo posteriormente refeito em Vue.js e Node.js. O aplicativo web gerencia perguntas durante palestras, proporcionando uma melhor interação e organização.",
+        "esES": "Desarrollo del MVP del WebApp en PHP, posteriormente reconstruido en Vue.js y Node.js. La aplicación web gestiona preguntas durante conferencias, mejorando la interacción y organización.",
+        "enUS": "Development of the MVP of the WebApp in PHP, later rebuilt in Vue.js and Node.js. The web app manages questions during lectures, providing better interaction and organization."
+      },
+      "imageUrl": "agora.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "Meemic",
+      "externalUrl": "https://meemic.com.br",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Jogo de tabuleiro para navegador",
+        "esES": "Diseño y Desarrollo - Juego de mesa para navegador",
+        "enUS": "Design and Development - Browser-based Board Game"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um jogo de tabuleiro para navegador baseado no jogo Imagem & Ação, utilizando Vue.js para proporcionar uma experiência interativa e divertida.",
+        "esES": "Desarrollo de un juego de mesa para navegador basado en el juego Imagen & Acción, utilizando Vue.js para ofrecer una experiencia interactiva y divertida.",
+        "enUS": "Development of a browser-based board game based on the game Pictionary, using Vue.js to provide an interactive and enjoyable experience."
+      },
+      "imageUrl": "meemic.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "Linnie Luz",
+      "externalUrl": "https://linnieluz.com.br",
+      "cardsubtitle": {
+        "ptBR": "Criação de Identidade Visual e Desenvolvimento de site-teaser",
+        "esES": "Creación de Identidad Visual y Desarrollo de sitio-teaser",
+        "enUS": "Visual Identity Creation and Teaser Website Development"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de uma identidade visual completa e criação de um site-teaser em HTML e CSS puro para uma psicóloga, com foco em captar a essência e os serviços oferecidos.",
+        "esES": "Desarrollo de una identidad visual completa y creación de un sitio-teaser en HTML y CSS puro para una psicóloga, enfocado en captar la esencia y los servicios ofrecidos.",
+        "enUS": "Full visual identity development and creation of a teaser website in pure HTML and CSS for a psychologist, focusing on capturing the essence and services offered."
+      },
+      "imageUrl": "linnie.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "AM Advocacia",
+      "externalUrl": "https://amadvocacia.com/a02e5-homepage/#wp-block-themeisle-blocks-advanced-column-bfdc2ec5",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Site Institucional",
+        "esES": "Diseño y Desarrollo - Sitio Institucional",
+        "enUS": "Design and Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site para evento de São João, incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web para evento de festividades de San Juan, incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a website for Saint John festivities event, including responsive design, content integration, and optimization for search engines."
+      },
+      "imageUrl": "vila.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "OAB Subseção Campina Grande",
+      "externalUrl": "https://oabcampinagrande.com.br",
+      "cardsubtitle": {
+        "ptBR": "Desenvolvimento - Site Institucional",
+        "esES": "Desarrollo - Sitio Institucional",
+        "enUS": "Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site em CSM próprio (PHP) para a subseção Campina Grande da OAB - Paraíba, incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web en CSM propio (PHP) para la subsección Campina Grande de la OAB - Paraíba, incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a proprietary CSM website (PHP) for the Campina Grande subsection of the OAB - Paraíba, including responsive design, content integration, and search engine optimization (SEO)."    
+      },
+      "imageUrl": "oab.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "Gerens",
+      "externalUrl": "",
+      "cardsubtitle": {
+        "ptBR": "Design, Video Making e Desenvolvimento - Site Institucional",
+        "esES": "Diseño, Video Making y Desarrollo - Sitio Institucional",
+        "enUS": "Design, Video Making and Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site em CSM próprio (PHP) para agência de publicidade, incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca. Criação e edição de video institucional.",
+        "esES": "Desarrollo de un sitio web en CSM propio (PHP) para una agencia de publicidad, incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda. Creación y edición de video institucional.",
+        "enUS": "Development of a proprietary CSM website (PHP) for an advertising agency, including responsive design, content integration, and search engine optimization (SEO). Creation and editing of institutional video."
+      },
+      "imageUrl": "gerens.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "Tudo Agência",
+      "externalUrl": "https://tudoagencia.com.br",
+      "cardsubtitle": {
+        "ptBR": "Desenvolvimento - Site Institucional",
+        "esES": "Desarrollo - Sitio Institucional",
+        "enUS": "Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site em CSM próprio (PHP) para agência de publicidade, incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web en CSM propio (PHP) para una agencia de publicidad, incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a proprietary CSM website (PHP) for an advertising agency, including responsive design, content integration, and search engine optimization (SEO)."
+      },
+      "imageUrl": "tudo.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "GrupoSEG",
+      "externalUrl": "",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Site Institucional",
+        "esES": "Diseño y Desarrollo - Sitio Institucional",
+        "enUS": "Design and Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site em CSM próprio (PHP) para empresa de segurança, incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web en CMS propio (PHP) para empresa de seguridad, incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a website in custom CMS (PHP) for a security company, including responsive design, content integration, and search engine optimization."
+       },
+      "imageUrl": "gruposeg.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "Fink & Castellar - Arquitetura e Consultoria",
+      "externalUrl": "",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Site Institucional",
+        "esES": "Diseño y Desarrollo - Sitio Institucional",
+        "enUS": "Design and Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site responsivo em CSM próprio (PHP) para uma empresa de arquitetura. incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web responsivo en CMS propio (PHP) para una empresa de arquitectura. incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a responsive website in custom CMS (PHP) for an architecture firm. including responsive design, content integration, and search engine optimization."
+      },
+      "imageUrl": "fink.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "Formätt Planejados",
+      "externalUrl": "",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Site Institucional",
+        "esES": "Diseño y Desarrollo - Sitio Institucional",
+        "enUS": "Design and Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site responsivo em CSM próprio (PHP) para empresa de móveis planejados. Incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web responsivo en CMS propio (PHP) para empresa de muebles planificados. Incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a responsive website in custom CMS (PHP) for a custom furniture company. Including responsive design, content integration, and optimization for search engines."
+      },
+      "imageUrl": "formatt.jpg",
+      "show": false
+    }
+  ]
+}
+ 

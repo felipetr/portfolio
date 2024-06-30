@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import { defineComponent, onMounted, onUnmounted, ref } from 'vue';
+import { defineComponent, onMounted, onUnmounted, ref } from "vue";
 
 export default defineComponent({
-  name: 'FluidBackground',
+  name: "FluidBackground",
   setup() {
     const canvasContainer = ref(null);
     const canvas = ref(null);
@@ -16,18 +16,23 @@ export default defineComponent({
     const particles = [];
     let animationFrame = null;
 
-    const colors = ['#2c3159', '#464c7c', '#222436', '#6f76af', '#fffff'];
+    const colors = [
+      process.env.VUE_APP_BLUE,
+      process.env.VUE_APP_LIGHT_BLUE,
+      process.env.VUE_APP_DARK_BLUE,
+      process.env.VUE_APP_LIGHTER_BLUE,
+      "#fff",
+    ];
 
     const initializeParticles = () => {
-      ctx = canvas.value.getContext('2d');
-
+      ctx = canvas.value.getContext("2d");
       canvas.value.width = window.innerWidth;
       canvas.value.height = window.innerHeight;
 
-      const particleCount = 200;
+      const particleCount = 600; // Tripled particle count
       for (let i = 0; i < particleCount; i++) {
         const randColor = colors[Math.floor(Math.random() * colors.length)];
-        const baseSize = (Math.random() * 4 + 1) * 15;
+        const baseSize = ((Math.random() * 4 + 1) * 15) / 3; // Reduced to 1/3 of original size
         const GenBreatheDelay = Math.random() * 4000 + 4000;
 
         particles.push({
@@ -35,7 +40,7 @@ export default defineComponent({
           y: Math.random() * canvas.value.height,
           originalX: Math.random() * canvas.value.width,
           originalY: Math.random() * canvas.value.height,
-          radius: randColor === '#fffff' ? baseSize / 3 : baseSize,
+          radius: randColor === "#fffff" ? baseSize / 3 : baseSize,
           vx: 0,
           vy: 0,
           color: randColor,
@@ -46,9 +51,10 @@ export default defineComponent({
       }
 
       animateParticles();
-      canvasContainer.value.addEventListener('mousemove', onMouseMove);
+      canvasContainer.value.addEventListener("mousemove", onMouseMove);
     };
 
+    // Animate particles
     const animateParticles = () => {
       animationFrame = requestAnimationFrame(animateParticles);
       ctx.clearRect(0, 0, canvas.value.width, canvas.value.height);
@@ -58,7 +64,7 @@ export default defineComponent({
         const bS = particle.breatheStart;
         const bD = particle.breatheDelay;
         const pR = particle.radius;
-        const breatheProgress = (now - bS) % bD / bD;
+        const breatheProgress = ((now - bS) % bD) / bD;
         const breatheSize = pR + Math.sin(breatheProgress * Math.PI * 2) * pR * 0.2;
 
         ctx.beginPath();
@@ -105,6 +111,7 @@ export default defineComponent({
     let mouseX = 0;
     let mouseY = 0;
 
+    // Handle mouse movement
     const onMouseMove = (event) => {
       mouseX = event.clientX - canvasContainer.value.getBoundingClientRect().left;
       mouseY = event.clientY - canvasContainer.value.getBoundingClientRect().top;
@@ -120,7 +127,7 @@ export default defineComponent({
 
     onUnmounted(() => {
       cancelAnimationFrame(animationFrame);
-      canvasContainer.value.removeEventListener('mousemove', onMouseMove);
+      canvasContainer.value.removeEventListener("mousemove", onMouseMove);
     });
 
     return {

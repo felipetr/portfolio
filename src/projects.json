@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "logo": "santander.svg",
+      "title": "Santander"
+    },
+    {
+      "logo": "rd.svg",
+      "title": "RaiaDrogasil"
+    },
+    {
+      "logo": "chubb.svg",
+      "title": "Chubb"
+    },
+    {
+      "logo": "accenture.svg",
+      "title": "Accenture"
+    },
+    {
+      "logo": "amil.svg",
+      "title": "Amil"
+    },
+    {
+      "logo": "oi.svg",
+      "title": "Oi"
+    },
+    {
+      "logo": "pefisa.svg",
+      "title": "PEFISA"
+    },
+    {
+      "logo": "oab.svg",
+      "title": "OAB/PB Subseção Campina Grande"
+    },
+    {
+      "logo": "dudeli.svg",
+      "title": "Dudeli"
+    },
+    {
+      "logo": "gruposeg.svg",
+      "title": "GrupoSEG"
+    },
+    {
+      "logo": "acp.svg",
+      "title": "ACP - Associação Comercial de Pernambuco"
+    },
+    {
+      "logo": "abdaex.svg",
+      "title": "ABDAEX - Associação Brasileira de Direito Aduaneiro e Fomento ao Comércio Exterior"
+    }
+  ]
+}

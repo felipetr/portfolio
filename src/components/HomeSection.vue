@@ -3,6 +3,7 @@
     <div id="mesh">
       <v-img
           :src="require('../assets/images/logo_white.svg')"
+          alt="Felipe"
           class="homelogo"
           contain
            />

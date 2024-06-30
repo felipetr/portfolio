@@ -1,21 +1,99 @@
-
 @import url(https://db.onlinewebfonts.com/c/ea250342ec4016561ba9e791c2f39c11?family=Posterama+2001+W04+Regular);
 
 *,
 :root {
   --blue: #2c3159;
   --dark-blue: #222436;
+  --darkest-blue: #141520;
+  --footer-blue: #0f1018;
+  --darkest-blue-opacity8: rgba(20, 21, 32, 0.8);
+  --dark-blue-opacity8: rgba(34, 36, 54, 0.8);
   --lighter-blue: #6f76af;
   --light-blue: #464c7c;
   --green: #74aa4d;
 }
-
+.p-3
+{
+  padding: 15px;
+}
+.prevBtn {
+  background: rgb(20, 21, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 21, 32, 1) 41%,
+    rgba(20, 21, 32, 0) 100%
+  );
+  left: 0;
+  padding: 0 60px 0 0;
+}
+.nextBtn {
+  background: rgb(20, 21, 32);
+  background: linear-gradient(
+    270deg,
+    rgba(20, 21, 32, 1) 41%,
+    rgba(20, 21, 32, 0) 100%
+  );
+  right: 0;
+  padding: 0 0 0 60px;
+}
+.vuelink
+{
+  transition: all 500ms ease 0s;
+  text-decoration: none !important;
+  color: #fff;
+}
+.vuelink:hover
+{
+  color: var(--green);
+}
+.prevBtn,
+.nextBtn {
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms ease 0s;
+  color: #fff;
+  cursor: pointer;
+}
+.prevBtn:hover,
+.nextBtn:hover {
+  color: var(--green);
+}
+p {
+  padding-bottom: 15px;
+}
+.darkestblue-bg {
+  background: var(--darkest-blue);
+}
+.fas {
+  color: var(--green) !important;
+}
+.avatar {
+  width: 100%;
+  max-width: 400px;
+}
 body,
 #app,
 .v-application {
   font-family: "Sen", sans-serif;
   background: var(--dark-blue);
   color: #fff;
+  font-size: 18px;
+}
+.heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Posterama 2001 W04 Regular", sans-serif !important;
+  color: var(--green);
+}
+.nodecoration {
+  text-decoration: none !important;
 }
 *::-webkit-scrollbar {
   width: 8px;
@@ -41,16 +119,13 @@ body,
 .canvas-container {
   width: 100vw;
   height: 100vh;
-  background-color: #222436;
+  background-color: var(--dark-blue);
   overflow: hidden !important;
 }
-.heading, h1, h2, h3, h4, h5, h6
-{
-  font-family: "Posterama 2001 W04 Regular", sans-serif !important;
-}
+
 .particles-canvas {
   width: 100%;
-  height: 100%;  
+  height: 100%;
   filter: blur(1.5rem);
 }
 #home {
@@ -70,8 +145,141 @@ body,
   pointer-events: none;
   padding: 30px;
 }
-.homelogo
-{
+.homelogo {
   width: 100%;
   max-width: 500px;
+}
+.text-center {
+  text-align: center;
+}
+.headerlogo {
+  height: 30px;
+  margin: 10px;
+}
+.pfixed {
+  position: fixed !important;
+}
+.dnone {
+  display: none;
+}
+.blureffect {
+  -webkit-backdrop-filter: saturate(200%) blur(20px);
+  backdrop-filter: saturate(200%) blur(10px);
+}
+hr {
+  margin: 24px 0;
+  border: none;
+  border-top: #fff solid 1px;
+  opacity: 0.4;
+}
+.prelative {
+  position: relative;
+  display: inline-block;
+}
+.menuNavParent {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 23;
+}
+.headerMenu {
+  left: 0;
+  right: 0;
+  top: -80.4px;
+  z-index: 22;
+  transition: all 500ms ease 0s;
+}
+.headerMenu .HeaderNav {
+  padding: 12px;
+  right: 0;
+  width: 100%;
+  background: var(--dark-blue-opacity8);
+}
+.scrolled .headerMenu {
+  top: 0;
+}
+.headerbars {
+  font-size: 20px;
+  line-height: 80.4px;
+  padding: 0 12px 0 12px;
+  cursor: pointer;
+  transition: all 500ms ease 0s;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.section {
+  padding: 80.4px 0;
+}
+
+.menuNavParent .menu {
+  position: fixed;
+  top: 0;
+  -webkit-backdrop-filter: saturate(200%) blur(20px);
+  backdrop-filter: saturate(200%) blur(10px);
+  right: -24px;
+  bottom: 0;
+  background: var(--darkest-blue-opacity8);
+  padding: 12px;
+  transition: all 500ms ease 0s;
+  width: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+  padding-top: calc(80.4px + 12px);
+  overflow-y: auto;
+}
+.menuNavParent .menu.opened {
+  width: 600px;
+  right: 0;
+}
+.scrolled .menuNavParent .menu {
+  top: 80.4px;
+  padding-top: 12px;
+}
+
+.social-icon {
+  margin: 10px;
+  transition: all 0.3s ease;
+  font-size: 24px;
+  color: #fff;
+
+}
+.social-icon:hover,
+.headerbars:hover {
+  color: var(--green) !important;
+}
+
+.sociallinks {
+  position: fixed;
+  z-index: 24;
+  left: 0;
+  top: 20px;
+}
+
+.navUl {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navUl li a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: "Posterama 2001 W04 Regular", sans-serif !important;
+  transition: all 0.3s ease;
+}
+
+.navUl li a:hover,
+.green-color {
+  color: var(--green);
+}
+@media (max-width: 480px) {
+  .sociallinks {
+    display: none;
+  }
 }
