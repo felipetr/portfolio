@@ -7,13 +7,25 @@
         <v-row>
           <v-col cols="12">
             <ProjectsCarousel
-            :projects="projectsXs" v-if="windowWidth < 600" :col="12"/>
+              :projects="projectsXs"
+              v-if="windowWidth < 600"
+              :col="12"
+            />
             <ProjectsCarousel
-            :projects="projectsSm" v-if="windowWidth >= 600 && windowWidth < 960" :col="4"/>
+              :projects="projectsSm"
+              v-else-if="windowWidth >= 600 && windowWidth < 960"
+              :col="4"
+            />
             <ProjectsCarousel
-            :projects="projectsMd" v-if="windowWidth >= 960 && windowWidth < 1264" :col="3"/>
+              :projects="projectsMd"
+              v-else-if="windowWidth >= 960 && windowWidth < 1264"
+              :col="3"
+            />
             <ProjectsCarousel
-            :projects="projectsLg" v-if="windowWidth > 1264" :col="2"/>
+              :projects="projectsLg"
+              v-else
+              :col="2"
+            />
           </v-col>
         </v-row>
       </div>
@@ -27,7 +39,10 @@ import ProjectsCarousel from "@/components/ProjectsCarousel.vue";
 
 function chunkProjects(arr, size) {
   return arr.reduce(
-    (acc, _, i) => (i % size ? acc[acc.length - 1].push(arr[i]) : acc.push([arr[i]])) && acc,
+    (acc, _, i) =>
+      (i % size
+        ? acc[acc.length - 1].push(arr[i])
+        : acc.push([arr[i]])) && acc,
     []
   );
 }
@@ -59,16 +74,19 @@ export default {
       projectsSm: projectsDataSm.projects,
       projectsMd: projectsDataMd.projects,
       projectsLg: projectsDataLg.projects,
-      windowWidth: window.innerWidth
+      windowWidth: window.innerWidth,
     };
   },
+  mounted() {
+    window.addEventListener("resize", this.handleResize);
+  },
   beforeUnmount() {
-    window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener("resize", this.handleResize);
   },
   methods: {
     handleResize() {
       this.windowWidth = window.innerWidth;
-    }
-  }
+    },
+  },
 };
 </script>
