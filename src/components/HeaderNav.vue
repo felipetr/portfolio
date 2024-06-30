@@ -43,6 +43,14 @@
               >{{ $t("portfolio_title") }}</a
             >
           </li>
+          <li>
+            <a
+              :title="$t('skills_title')"
+              href="#skills"
+              @click.prevent="scrollToAnchor('#skills')"
+              >{{ $t("skills_title") }}</a
+            >
+          </li>
         </ul>
         </nav>
       </div>

@@ -1,9 +1,9 @@
 <template>
-  <v-footer :color="footerBlue" justify="center">
+  <v-footer :color="footerBlue" justify="center" class="footer ">
     <v-row justify="center" no-gutters>
     <v-col class="text-center">
-      <p>{{ siteTitle }} - 2024</p>
-      <small>{{ $t('powered') }} <a href="https://vuejs.org" target="_blank" title="Vue.js" class="vuelink"><i class="fa-brands fa-vuejs"></i> Vue.js</a></small>
+      {{ siteTitle }} - 2024
+      <br><small>{{ $t('powered') }} <a href="https://vuejs.org" target="_blank" title="Vue.js" class="vuelink"><i class="fa-brands fa-vuejs"></i> Vue.js</a></small>
     </v-col>
     </v-row>
   </v-footer>

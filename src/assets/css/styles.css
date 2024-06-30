@@ -6,15 +6,16 @@
   --dark-blue: #222436;
   --darkest-blue: #141520;
   --footer-blue: #0f1018;
+  --header-blue: rgba(255, 255, 255, .1);
   --darkest-blue-opacity8: rgba(20, 21, 32, 0.8);
   --dark-blue-opacity8: rgba(34, 36, 54, 0.8);
   --lighter-blue: #6f76af;
   --light-blue: #464c7c;
   --green: #74aa4d;
 }
-.p-3
+.footer
 {
-  padding: 15px;
+  padding: 30px 0;
 }
 .prevBtn {
   background: rgb(20, 21, 32);
@@ -66,6 +67,9 @@ p {
 }
 .darkestblue-bg {
   background: var(--darkest-blue);
+}
+.darkblue-bg {
+  background: var(--dark-blue);
 }
 .fas {
   color: var(--green) !important;
@@ -193,7 +197,7 @@ hr {
   padding: 12px;
   right: 0;
   width: 100%;
-  background: var(--dark-blue-opacity8);
+  background: var(--header-blue);
 }
 .scrolled .headerMenu {
   top: 0;

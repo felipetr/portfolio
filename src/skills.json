@@ -1,0 +1,294 @@
+{
+  "hardSkills": [
+    {
+      "title": {
+        "ptBR": "HTML",
+        "enUS": "HTML",
+        "esES": "HTML"
+      },
+      "perc": 90
+    },
+    {
+      "title": {
+        "ptBR": "CSS / SCSS / Sass",
+        "enUS": "CSS / SCSS / Sass",
+        "esES": "CSS / SCSS / Sass"
+      },
+      "perc": 80
+    },
+    {
+      "title": {
+        "ptBR": "Javascript / JQuery",
+        "enUS": "Javascript / JQuery",
+        "esES": "Javascript / JQuery"
+      },
+      "perc": 70
+    },
+    {
+      "title": {
+        "ptBR": "TypeScript",
+        "enUS": "TypeScript",
+        "esES": "TypeScript"
+      },
+      "perc": 10
+    },
+    {
+      "title": {
+        "ptBR": "PHP Composer",
+        "enUS": "PHP Composer",
+        "esES": "PHP Composer"
+      },
+      "perc": 30
+    },
+    {
+      "title": {
+        "ptBR": "NPM",
+        "enUS": "NPM",
+        "esES": "NPM"
+      },
+      "perc": 45
+    },
+    {
+      "title": {
+        "ptBR": "PHP 5.x - 8.2",
+        "enUS": "PHP 5.x - 8.2",
+        "esES": "PHP 5.x - 8.2"
+      },
+      "perc": 70
+    },
+    {
+      "title": {
+        "ptBR": "Laravel",
+        "enUS": "Laravel",
+        "esES": "Laravel"
+      },
+      "perc": 65
+    },
+    {
+      "title": {
+        "ptBR": "MySQL / SQL Server / Oracle SQL / PostgreSQL",
+        "enUS": "MySQL / SQL Server / Oracle SQL / PostgreSQL",
+        "esES": "MySQL / SQL Server / Oracle SQL / PostgreSQL"
+      },
+      "perc": 65
+    },
+    {
+      "title": {
+        "ptBR": "NoSQL / MongoDB",
+        "enUS": "NoSQL / MongoDB",
+        "esES": "NoSQL / MongoDB"
+      },
+      "perc": 40
+    },
+    {
+      "title": {
+        "ptBR": "Wordpress",
+        "enUS": "Wordpress",
+        "esES": "Wordpress"
+      },
+      "perc": 65
+    },
+    {
+      "title": {
+        "ptBR": "Bootstrap  3.x - 5.x",
+        "enUS": "Bootstrap  3.x - 5.x",
+        "esES": "Bootstrap  3.x - 5.x"
+      },
+      "perc": 80
+    },
+    {
+      "title": {
+        "ptBR": "Codeigniter",
+        "enUS": "Codeigniter",
+        "esES": "Codeigniter"
+      },
+      "perc": 40
+    },
+    {
+      "title": {
+        "ptBR": "Vue.js / Vuetify / VueCli / Vue Router",
+        "enUS": "Vue.js / Vuetify / VueCli / Vue Router",
+        "esES": "Vue.js / Vuetify / VueCli / Vue Router"
+      },
+      "perc": 70
+    },
+    {
+      "title": {
+        "ptBR": "React",
+        "enUS": "React",
+        "esES": "React"
+      },
+      "perc": 30
+    },
+    {
+      "title": {
+        "ptBR": "Angular",
+        "enUS": "Angular",
+        "esES": "Angular"
+      },
+      "perc": 30
+    },
+    {
+      "title": {
+        "ptBR": "Node.js",
+        "enUS": "Node.js",
+        "esES": "Node.js"
+      },
+      "perc": 20
+    },
+    {
+      "title": {
+        "ptBR": "GIT",
+        "enUS": "GIT",
+        "esES": "GIT"
+      },
+      "perc": 70
+    },
+    {
+      "title": {
+        "ptBR": "UI/UX",
+        "enUS": "UI/UX",
+        "esES": "UI/UX"
+      },
+      "perc": 80
+    },
+    {
+      "title": {
+        "ptBR": "APIs (REST & SOAP)",
+        "enUS": "APIs (REST & SOAP)",
+        "esES": "APIs (REST & SOAP)"
+      },
+      "perc": 50
+    },
+    {
+      "title": {
+        "ptBR": "Pegasystems ^7",
+        "enUS": "Pegasystems ^7",
+        "esES": "Pegasystems ^7"
+      },
+      "perc": 50
+    },
+    {
+      "title": {
+        "ptBR": "Outsystems",
+        "enUS": "Outsystems",
+        "esES": "Outsystems"
+      },
+      "perc": 55
+    },
+    {
+      "title": {
+        "ptBR": "Adobe Premiere Pro / Adobe After Effects / Adobe Animate",
+        "enUS": "Adobe Premiere Pro / Adobe After Effects / Adobe Animate",
+        "esES": "Adobe Premiere Pro / Adobe After Effects / Adobe Animate"
+      },
+      "perc": 85
+    },
+    {
+      "title": {
+        "ptBR": "Adobe Photoshop / Adobe Illustrator",
+        "enUS": "Adobe Photoshop / Adobe Illustrator",
+        "esES": "Adobe Photoshop / Adobe Illustrator"
+      },
+      "perc": 85
+    },
+    {
+      "title": {
+        "ptBR": "Gulp",
+        "enUS": "Gulp",
+        "esES": "Gulp"
+      },
+      "perc": 35
+    },
+    {
+      "title": {
+        "ptBR": "Testes Unitários (Jest & PHPUnit)",
+        "enUS": "Unit Testing (Jest & PHPUnit)",
+        "esES": "Pruebas Unitarias (Jest & PHPUnit)"
+      },
+      "perc": 35
+    },
+    {
+      "title": {
+        "ptBR": "AWS",
+        "enUS": "AWS",
+        "esES": "AWS"
+      },
+      "perc": 10
+    }
+  ],
+  "softSkills": [
+    {
+      "title": {
+        "ptBR": "Criatividade",
+        "enUS": "Creativity",
+        "esES": "Creatividad"
+      },
+      "perc": 85
+    },
+    {
+      "title": {
+        "ptBR": "Comunicação",
+        "enUS": "Communication",
+        "esES": "Comunicación"
+      },
+      "perc": 90
+    },
+    {
+      "title": {
+        "ptBR": "Pensamento Crítico",
+        "enUS": "Critical Thinking",
+        "esES": "Pensamiento Crítico"
+      },
+      "perc": 70
+    },
+    {
+      "title": {
+        "ptBR": "Resolução de Problemas Complexos",
+        "enUS": "Complex Problem Solving",
+        "esES": "Resolución de Problemas Complejos"
+      },
+      "perc": 60
+    },
+    {
+      "title": {
+        "ptBR": "Escrita de Textos e Vocabulário",
+        "enUS": "Writing Texts and Vocabulary",
+        "esES": "Escritura de Textos y Vocabulario"
+      },
+      "perc": 80
+    },
+    {
+      "title": {
+        "ptBR": "Flexibilidade Cognitiva / Pensar fora da caixa",
+        "enUS": "Cognitive Flexibility / Thinking outside the box",
+        "esES": "Flexibilidad Cognitiva / Pensar fuera de la caja"
+      },
+      "perc": 80
+    },
+    {
+      "title": {
+        "ptBR": "Trabalho em Equipe",
+        "enUS": "Teamwork",
+        "esES": "Trabajo en Equipo"
+      },
+      "perc": 80
+    },
+    {
+      "title": {
+        "ptBR": "Raciocínio Lógico",
+        "enUS": "Logical Reasoning",
+        "esES": "Razonamiento Lógico"
+      },
+      "perc": 90
+    },
+    {
+      "title": {
+        "ptBR": "Liderança",
+        "enUS": "Leadership",
+        "esES": "Liderazgo"
+      },
+      "perc": 60
+    }
+  ]
+}

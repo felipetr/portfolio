@@ -7,6 +7,7 @@
         <AboutSection/>
         <FolioSection/>
         <ProjectsCaroussel/>
+        <SkillsSection/>
         <AppFooter/>
       </div>
     </v-main>
@@ -20,6 +21,7 @@ import AboutSection from "@/components/AboutSection.vue";
 import FolioSection from "@/components/FolioSection.vue";
 import ProjectsCaroussel from "@/components/ProjectsSection.vue";
 import AppFooter from "@/components/AppFooter.vue";
+import SkillsSection from "./components/SkillsSection.vue";
 
 export default {
   name: "App",
@@ -30,6 +32,7 @@ export default {
     AboutSection,
     FolioSection,
     ProjectsCaroussel,
+    SkillsSection,
     AppFooter,
   },
 
