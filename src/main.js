@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import { createI18n } from 'vue-i18n';
+import { createHead } from '@vueuse/head';
 import App from './App.vue';
 import vuetify from './plugins/vuetify';
 import loadFonts from './plugins/webfontloader';
@@ -10,6 +11,8 @@ import enUS from './locales/enUS.json';
 import esES from './locales/esES.json';
 
 loadFonts();
+
+const head = createHead();
 
 const messages = {
   en_US: enUS,
@@ -31,11 +34,13 @@ const getBrowserLanguage = () => {
 };
 
 const i18n = createI18n({
+  legacy: false,
   locale: getBrowserLanguage(),
   messages,
 });
 
 createApp(App)
   .use(vuetify)
+  .use(head)
   .use(i18n)
   .mount('#app');
