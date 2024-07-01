@@ -1,0 +1,19 @@
+{
+  "language_skills": [
+    {
+      "lang": "portuguese",
+      "level": "c3",
+      "show": false
+    },
+    {
+      "lang": "english",
+      "level": "c1",
+      "show": false
+    },
+    {
+      "lang": "spanish",
+      "level": "c1",
+      "show": false
+    }
+  ]
+}

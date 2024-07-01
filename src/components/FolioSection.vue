@@ -28,7 +28,7 @@
                 {{ card.cardsubtitle.enUS }}
               </v-card-subtitle>
 
-              <v-card-actions>
+                <v-card-actions>
                 <a :href="card.externalUrl" target="_blank" v-if="card.externalUrl">
                   <div class="d-none">{{ $t('explore') }}</div>
                   <v-btn :color="green" :text="$t('explore')"></v-btn>

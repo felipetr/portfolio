@@ -19,7 +19,7 @@ module.exports = {
     'arrow-parens': 'off',
     'no-param-reassign': 'off',
     'implicit-arrow-linebreak': 'off',
-    'quotes': 'off',
+    quotes: 'off',
     'no-unused-vars': 'off',
     'func-names': 'off',
     'no-mixed-operators': 'off',

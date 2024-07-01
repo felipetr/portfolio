@@ -1,7 +1,44 @@
-{   
+{
     "cards": [],
-    "language_name":"Português",
-    "language": "Idioma",    
+    "meta":{
+        "description": "Desenvolvedor fullstack de Recife, Pernambuco, Brasil. Conheça meus projetos e habilidades.",
+        "title": "Desenvolvedor Fullstack",
+        "keywords": "HTML, CSS, SCSS, Sass, JavaScript, JQuery, TypeScript, PHP Composer, NPM, PHP, Laravel, MySQL, SQL Server, Oracle SQL, PostgreSQL, NoSQL, MongoDB, Wordpress, Bootstrap, Codeigniter, Vue.js, Vuetify, VueCli, Vue Router, React, Angular, Node.js, GIT, UI/UX, APIs REST SOAP, Pegasystems, Outsystems, Adobe Premiere Pro, Adobe After Effects, Adobe Animate, Adobe Photoshop, Adobe Illustrator, Gulp, Testes Unitários Jest PHPUnit, AWS."
+    },
+    "language_name": "Português",
+    "language": "Idioma",
+    "language_skills_title": "Habilidades Linguísticas",
+    "language_skills_subtitle": "Minha jornada através dos idiomas",
+    "language_skills": {
+        "a1": {
+            "title": "A1 - Iniciante",
+            "desc": "Consigo compreender e usar expressões familiares e cotidianas, além de frases muito básicas destinadas à satisfação de necessidades concretas."
+        },
+        "a2": {
+            "title": "A2 - Básico",
+            "desc": "Consigo compreender frases isoladas e expressões frequentes relacionadas a áreas de prioridade imediata."
+        },
+        "b1": {
+            "title": "B1 - Intermediário",
+            "desc": "Consigo lidar com a maioria das situações encontradas durante viagens em áreas onde o idioma é falado."
+        },
+        "b2": {
+            "title": "B2 - Intermediário Avançado",
+            "desc": "Consigo entender as ideias principais de textos complexos sobre assuntos concretos e abstratos."
+        },
+        "c1": {
+            "title": "C1 - Avançado",
+            "desc": "Consigo compreender uma vasta gama de textos mais longos e exigentes, além de reconhecer significados implícitos."
+        },
+        "c2": {
+            "title": "C2 - Proficiente",
+            "desc": "Consigo expressar-me de forma espontânea, muito fluente e precisa, diferenciando pequenos matizes de significado em situações mais complexas."
+        },
+        "c3": {
+            "title": "C3 - Fluente ou Nativo",
+            "desc": "Tenho um domínio pleno da língua. Sou falante nativo."
+        }
+    },
     "close": "Fechar",
     "openmenu": "Abrir Menu",
     "projects_title": "Onde já desenvolvi projetos",
@@ -34,7 +71,7 @@
     "certifications": "Certificações",
     "aboutme_title": "Sobre Mim",
     "aboutme_subtitle": "Meu caminho até aqui",
-    "explore": "Explore",
+    "explore": "Visitar",
     "powered": "Desenvolvido com",
     "contactme_title": "Contato",
     "aboutme_content_p1": "Olá e bem-vindo ao meu website / portfólio.",

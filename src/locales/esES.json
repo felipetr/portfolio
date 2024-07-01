@@ -1,7 +1,44 @@
 {
     "cards": [],
+    "meta": {
+        "description": "Desarrollador fullstack de Recife, Pernambuco, Brasil. Conoce mis proyectos y habilidades.",
+        "title": "Desarrollador Fullstack",
+        "keywords": "HTML, CSS, SCSS, Sass, JavaScript, JQuery, TypeScript, PHP Composer, NPM, PHP, Laravel, MySQL, SQL Server, Oracle SQL, PostgreSQL, NoSQL, MongoDB, Wordpress, Bootstrap, Codeigniter, Vue.js, Vuetify, VueCli, Vue Router, React, Angular, Node.js, GIT, UI/UX, APIs REST SOAP, Pegasystems, Outsystems, Adobe Premiere Pro, Adobe After Effects, Adobe Animate, Adobe Photoshop, Adobe Illustrator, Gulp, Pruebas Unitarias Jest PHPUnit, AWS."
+    },    
     "language_name": "Español",
     "language": "Idioma",
+    "language_skills_title": "Habilidades Lingüísticas",
+    "language_skills_subtitle": "Mi viaje a través de los idiomas",
+    "language_skills": {
+        "a1": {
+            "title": "A1 - Principiante",
+            "desc": "Puedo entender y usar expresiones familiares y cotidianas, así como frases muy básicas destinadas a satisfacer necesidades concretas."
+        },
+        "a2": {
+            "title": "A2 - Básico",
+            "desc": "Puedo comprender frases aisladas y expresiones frecuentes relacionadas con áreas de prioridad inmediata."
+        },
+        "b1": {
+            "title": "B1 - Intermedio",
+            "desc": "Puedo manejar la mayoría de las situaciones encontradas durante viajes en áreas donde se habla el idioma."
+        },
+        "b2": {
+            "title": "B2 - Intermedio Avanzado",
+            "desc": "Puedo entender las ideas principales de textos complejos sobre temas concretos y abstractos."
+        },
+        "c1": {
+            "title": "C1 - Avanzado",
+            "desc": "Puedo comprender una amplia gama de textos más largos y exigentes, además de reconocer significados implícitos."
+        },
+        "c2": {
+            "title": "C2 - Competente",
+            "desc": "Puedo expresarme de manera espontánea, muy fluida y precisa, diferenciando pequeños matices de significado en situaciones más complejas."
+        },
+        "c3": {
+            "title": "C3 - Fluido o Nativo",
+            "desc": "Tengo un dominio completo del idioma. Soy un hablante nativo."
+        }
+    }    ,
     "close": "Cerrar",
     "openmenu": "Abrir Menú",
     "projects_title": "Donde he desarrollado proyectos",

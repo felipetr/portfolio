@@ -1,7 +1,44 @@
 {
     "cards": [],
+    "meta": {
+        "description": "Fullstack developer from Recife, Pernambuco, Brazil. Explore my projects and skills.",
+        "title": "Fullstack Developer",
+        "keywords": "HTML, CSS, SCSS, Sass, JavaScript, JQuery, TypeScript, PHP Composer, NPM, PHP, Laravel, MySQL, SQL Server, Oracle SQL, PostgreSQL, NoSQL, MongoDB, Wordpress, Bootstrap, Codeigniter, Vue.js, Vuetify, VueCli, Vue Router, React, Angular, Node.js, GIT, UI/UX, APIs REST SOAP, Pegasystems, Outsystems, Adobe Premiere Pro, Adobe After Effects, Adobe Animate, Adobe Photoshop, Adobe Illustrator, Gulp, Unit Testing Jest PHPUnit, AWS."
+    },
     "language_name": "English",
     "language": "Language",
+    "language_skills_title": "Language Skills",
+    "language_skills_subtitle": "My journey through different languages",
+    "language_skills": {
+        "a1": {
+            "title": "A1 - Beginner",
+            "desc": "I can understand and use familiar and everyday expressions, as well as very basic phrases aimed at satisfying concrete needs."
+        },
+        "a2": {
+            "title": "A2 - Basic",
+            "desc": "I can understand isolated sentences and frequently used expressions related to immediate priorities."
+        },
+        "b1": {
+            "title": "B1 - Intermediate",
+            "desc": "I can handle most situations encountered while traveling in areas where the language is spoken."
+        },
+        "b2": {
+            "title": "B2 - Upper Intermediate",
+            "desc": "I can grasp the main ideas of complex texts on both concrete and abstract topics."
+        },
+        "c1": {
+            "title": "C1 - Advanced",
+            "desc": "I can understand a wide range of longer and more demanding texts, and recognize implicit meanings."
+        },
+        "c2": {
+            "title": "C2 - Proficient",
+            "desc": "I can express myself spontaneously, very fluently, and precisely, differentiating finer shades of meaning even in more complex situations."
+        },
+        "c3": {
+            "title": "C3 - Fluent or Native",
+            "desc": "I have a full command of the language. I'm a native speaker."
+        }
+    },
     "close": "Close",
     "openmenu": "Open Menu",
     "projects_title": "Where I've Developed Projects",
@@ -34,7 +71,7 @@
     "certifications": "Certifications",
     "aboutme_title": "About Me",
     "aboutme_subtitle": "My Journey So Far",
-    "explore": "Explore",
+    "explore": "Go to",
     "powered": "Powered by",
     "contactme_title": "Contact",
     "aboutme_content_p1": "Hello and welcome to my website/portfolio.",
