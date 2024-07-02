@@ -27,9 +27,9 @@
           <p class="text-center mb-4">{{ $t("soft_skills_subtitle") }}</p>
           <v-row>
             <v-col cols="12" md="6" v-for="(skill, index) in sortedSoftSkills" :key="index">
-              <div v-if="this.$i18n.locale === 'pt_BR'">{{ skill.title.ptBR }}</div>
-              <div v-if="this.$i18n.locale === 'es_ES'">{{ skill.title.esES }}</div>
-              <div v-if="this.$i18n.locale === 'en_US'">{{ skill.title.enUS }}</div>
+              <div v-if="this.$i18n.locale === 'pt-BR'">{{ skill.title.ptBR }}</div>
+              <div v-if="this.$i18n.locale === 'es-ES'">{{ skill.title.esES }}</div>
+              <div v-if="this.$i18n.locale === 'en-US'">{{ skill.title.enUS }}</div>
               <v-progress-linear
                 :color="green"
                 :model-value="skill.perc"
