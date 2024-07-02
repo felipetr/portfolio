@@ -1,7 +1,10 @@
 {
     "cards": [],
     "ddi": "IDD",
+    "last_update": "Last Update",
+    "see_certificate": "See Certificate",
     "phone": "Phone / Mobile",
+    "credential_code": "Credential Code",
     "validation":{
         "required": "Required field!",
         "invalid_email": "Invalid email!"
@@ -49,7 +52,6 @@
     "openmenu": "Open Menu",
     "projects_title": "Where I've Developed Projects",
     "projects_subtitle": "Here are some of the institutions that have trusted my work",
-    "see": "See",
     "name": "Name",
     "errormsg_title": "Failed to Send Message!",
     "errormsg_subtitle": "Please try again later.",
@@ -74,6 +76,7 @@
     "hard_skills": "Technical Skills",
     "soft_skills": "Behavioral Skills",
     "certifications_title": "Education and Certifications",
+    "certifications_subtitle": "What I studied",
     "certifications": "Certifications",
     "aboutme_title": "About Me",
     "aboutme_subtitle": "My Journey So Far",

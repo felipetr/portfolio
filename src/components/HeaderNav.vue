@@ -2,8 +2,9 @@
   <div>
     <SocialNetworkIcons />
     <header class="menuNavParent">
-      <button class="headerbars" @click="toggleMenu">
+      <button class="headerbars" :title="$t('openmenu')" @click="toggleMenu">
         <v-icon>mdi-menu</v-icon>
+        <span class="d-none">{{ $t('openmenu') }}</span>
       </button>
       <div :class="isOpened + ' blureffect menu'">
         <div class="language-switcher-box">
@@ -49,6 +50,22 @@
               href="#skills"
               @click.prevent="scrollToAnchor('#skills')"
               >{{ $t("skills_title") }}</a
+            >
+          </li>
+          <li>
+            <a
+              :title="$t('certifications_title')"
+              href="#education"
+              @click.prevent="scrollToAnchor('#education')"
+              >{{ $t("certifications_title") }}</a
+            >
+          </li>
+          <li>
+            <a
+              :title="$t('contactme_title')"
+              href="#contact"
+              @click.prevent="scrollToAnchor('#contact')"
+              >{{ $t("contactme_title") }}</a
             >
           </li>
         </ul>

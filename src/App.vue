@@ -9,6 +9,7 @@
         <FolioSection/>
         <ProjectsCaroussel/>
         <SkillsSection/>
+        <EducationSection/>
         <ContactSection/>
         <AppFooter/>
       </div>
@@ -27,9 +28,10 @@ import HomeSection from "@/components/HomeSection.vue";
 import AboutSection from "@/components/AboutSection.vue";
 import FolioSection from "@/components/FolioSection.vue";
 import ProjectsCaroussel from "@/components/ProjectsSection.vue";
-import AppLoader from "./components/AppLoader.vue";
 import SkillsSection from "./components/SkillsSection.vue";
+import EducationSection from "./components/EducationSection.vue";
 import ContactSection from "./components/ContactSection.vue";
+import AppLoader from "./components/AppLoader.vue";
 
 export default defineComponent({
   name: "App",
@@ -42,8 +44,9 @@ export default defineComponent({
     FolioSection,
     ProjectsCaroussel,
     SkillsSection,
-    AppFooter,
-    ContactSection
+    EducationSection,
+    ContactSection,
+    AppFooter
   },
 
   setup() {

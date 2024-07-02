@@ -1,11 +1,14 @@
 {
     "cards": [],
     "ddi": "DDI",
+    "last_update": "Última Atualização",
+    "see_certificate": "Ver Certificado",
     "phone": "Telefone / Celular",
     "validation":{
         "required": "Campo Obrigatório!",
         "invalid_email": "E-mail inválido!"
     },
+    "credential_code": "Código da credencial",
     "meta":{
         "description": "Desenvolvedor fullstack de Recife, Pernambuco, Brasil. Conheça meus projetos e habilidades.",
         "title": "Felipe Travassos - Desenvolvedor Fullstack",
@@ -49,7 +52,6 @@
     "openmenu": "Abrir Menu",
     "projects_title": "Onde já desenvolvi projetos",
     "projects_subtitle": "Aqui estão algumas das instituições que já apostaram no meu trabalho",
-    "see": "Ver",
     "name": "Nome",
     "errormsg_title": "Não foi possível enviar mensagem!",
     "errormsg_subtitle": "Por favor, tente mais tarde.",
@@ -74,6 +76,7 @@
     "hard_skills": "Habilidades Técnicas",
     "soft_skills": "Habilidades Comportamentais",
     "certifications_title": "Educação e Certificações",
+    "certifications_subtitle": "O que estudei",
     "certifications": "Certificações",
     "aboutme_title": "Sobre Mim",
     "aboutme_subtitle": "Meu caminho até aqui",

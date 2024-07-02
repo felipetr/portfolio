@@ -46,7 +46,11 @@
           :label="$t('message')"
           clearable
         ></v-textarea>
-    <v-btn class="mt-2" type="submit" color="green" block>Submit</v-btn>
+    <v-btn v-if="loading"
+    class="mt-2" color="#6c757d"
+    block><i class="fa-solid fa-circle-notch fa-spin"></i> {{ $t('sending') }}
+  </v-btn>
+    <v-btn v-else class="mt-2" type="submit" :color="green" block>{{ $t('send') }}</v-btn>
   </v-form>
 </template>
 
@@ -77,6 +81,7 @@ export default {
         },
       ],
       Name: "",
+      loading: false,
       CodeArea: {
         ptBR: "Brasil",
         enUS: "Brazil",

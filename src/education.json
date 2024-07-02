@@ -1,0 +1,71 @@
+{
+  "college": [
+    {
+      "institution": "Faculdade Maurício de Nassau",
+      "course": {
+        "ptBR": "Bacharelado em Comunicação Social - Habilitação em Cinema Digital",
+        "esES": "Licenciatura en Comunicación Social - Especialización en Cine Digital",
+        "enUS": "Bachelor's in Social Communication - Digital Cinema"
+      },
+      "start": "2005",
+      "end": "2010",
+      "city": {
+        "ptBR": "Recife - PE - Brasil",
+        "esES": "Recife - PE - Brasil",
+        "enUS": "Recife - PE - Brazil"
+      },
+      "status": {
+        "ptBR": "Incompleto, 7 semestres, 87,5%",
+        "esES": "Incompleto, 7 semestres, 87,5%",
+        "enUS": "Incomplete, 7 semesters, 87.5%"
+      }
+    },
+    {
+      "institution": "UNINASSAU",
+      "course": {
+        "ptBR": "Curso Superior de Tecnologia (CST), Superior de Tecnologia em Experiência do Usuário e Modelagem de Projetos Inovadores",
+        "esES": "Curso Superior de Tecnología (CST), Tecnología Superior en Experiencia del Usuario y Modelado de Proyectos Innovadores",
+        "enUS": "Higher Technological Education (CST), Higher Technological Education in User Experience and Innovative Project Modeling"
+      },
+      "start": "2023",
+      "end": "2025",
+      "city": {
+        "ptBR": "Recife - PE - Brasil",
+        "esES": "Recife - PE - Brasil",
+        "enUS": "Recife - PE - Brazil"
+      },
+      "status": {
+        "ptBR": "Trancado, 3 semestres, 75%",
+        "esES": "Suspendido, 3 semestres, 75%",
+        "enUS": "On Hold, 3 semesters, 75%"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Pegasystems - Certified System Architect (CSA) 8.6",
+      "tech": "Pegasystems",
+      "date": "2019-08",
+      "updatedDate": "2021-12",
+      "code": "PEGA063848",
+      "validation_url": "https://academy.pega.com/verify-certification?email=contato%40felipetravassos.com"
+    },
+    {
+      "name": "SASS from Beginner to Expert",
+      "tech": "Udemy",
+      "date": "2019-02",
+      "updatedDate": "",
+      "code": "UC-YAILQ2BB",
+      "validation_url": "https://www.udemy.com/certificate/UC-YAILQ2BB/"
+    },
+    {
+      "name": "English 4 Travel",
+      "tech": "Udemy",
+      "date": "2023-03",
+      "updatedDate": "",
+      "code": "UC-6b2df400-b511-4a19-8768-3ee3ff6a13fb",
+      "validation_url": "https://www.udemy.com/certificate/UC-6b2df400-b511-4a19-8768-3ee3ff6a13fb/"
+    }
+  ]
+}
+ 

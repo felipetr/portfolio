@@ -316,6 +316,14 @@ hr {
   text-align: left;
   padding-bottom: 15px;
 }
+.op5
+{
+  opacity: .5;
+}
+.text-end
+{
+  text-align: right;
+}
 @media (max-width: 480px) {
   .sociallinks {
     display: none;

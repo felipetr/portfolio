@@ -1,6 +1,9 @@
 {
     "cards": [],
     "ddi": "DDI",
+    "last_update": "Última Actualización",
+    "see_certificate": "Ver Certificado",
+    "credential_code": "Código de credencial",
     "phone": "Teléfono / Celular / Móvil",
     "validation":{
         "required": "Campo Obrigatório!",
@@ -15,7 +18,7 @@
     "language": "Idioma",
     "language_skills_title": "Habilidades Lingüísticas",
     "language_skills_subtitle": "Mi viaje a través de los idiomas",
-    "language_skills": {
+    "language_skills_subtitle": {
         "a1": {
             "title": "A1 - Principiante",
             "desc": "Puedo entender y usar expresiones familiares y cotidianas, así como frases muy básicas destinadas a satisfacer necesidades concretas."
@@ -49,7 +52,6 @@
     "openmenu": "Abrir Menú",
     "projects_title": "Donde he desarrollado proyectos",
     "projects_subtitle": "Aquí están algunas de las instituciones que han confiado en mi trabajo",
-    "see": "Ver",
     "name": "Nombre",
     "errormsg_title": "¡No se pudo enviar el mensaje!",
     "errormsg_subtitle": "Por favor, inténtalo de nuevo más tarde.",
@@ -74,6 +76,7 @@
     "hard_skills": "Habilidades Técnicas",
     "soft_skills": "Habilidades Comportamentales",
     "certifications_title": "Educación y Certificaciones",
+    "certifications_subtitle": "Lo que estudié",
     "certifications": "Certificaciones",
     "aboutme_title": "Sobre mí",
     "aboutme_subtitle": "Mi trayectoria hasta ahora",
