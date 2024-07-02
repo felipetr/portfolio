@@ -22,6 +22,7 @@ import { defineComponent, ref, onMounted, onUnmounted, watchEffect } from 'vue';
 import { useHead } from '@vueuse/head';
 import { useI18n } from 'vue-i18n';
 import ogimg from "@/assets/images/ogimg.jpg";
+import faviconUrl from '@/assets/images/favicon.png';
 import AppFooter from "@/components/AppFooter.vue";
 import HeaderNav from "@/components/HeaderNav.vue";
 import HomeSection from "@/components/HomeSection.vue";
@@ -35,7 +36,8 @@ import AppLoader from "./components/AppLoader.vue";
 
 export default defineComponent({
   name: "App",
-
+  methods: {
+  },
   components: {
     AppLoader,
     HeaderNav,
@@ -60,6 +62,7 @@ export default defineComponent({
     const updateMetaTags = () => {
       useHead({
         title: appTitle.value,
+        favicon: faviconUrl,
         meta: [
           { name: "description", content: description.value },
           { name: "keywords", content: keywords.value },
@@ -93,6 +96,15 @@ export default defineComponent({
     onMounted(() => {
       window.addEventListener("scroll", handleScroll);
       handleScroll();
+
+      const faviconEl = document.querySelector('link[rel="icon"]');
+      const faviconEl2 = document.querySelector('link[rel="icon shortcut"]');
+      if (faviconEl) {
+        faviconEl.href = faviconUrl;
+      }
+      if (faviconEl2) {
+        faviconEl2.href = faviconUrl;
+      }
     });
 
     onUnmounted(() => {
