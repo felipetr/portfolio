@@ -5,7 +5,9 @@
       <div class="py-4 px-4 my-4">
         <v-row justify="center">
           <v-col v-for="(card, index) in cards" :key="index" cols="12" sm="6" md="4" lg="3">
-            <v-card :color="darkestBlue" class="mx-auto" max-width="100%">
+            <v-skeleton-loader v-if="loading"
+            type="card" :rounded="true" :height="400"></v-skeleton-loader>
+            <v-card v-else :color="darkestBlue" class="mx-auto" max-width="100%">
               <div style="position: relative; width: 100%; padding-top: 56.25%;">
                 <v-img
                   :src="require(`@/assets/images/folio/${card.imageUrl}`)"
@@ -18,13 +20,13 @@
                 {{ card.cardtitle }}
               </v-card-title>
 
-              <v-card-subtitle v-if="this.$i18n.locale === 'pt_BR'">
+              <v-card-subtitle v-if="this.$i18n.locale === 'pt-BR'">
                 {{ card.cardsubtitle.ptBR }}
               </v-card-subtitle>
-              <v-card-subtitle v-if="this.$i18n.locale === 'es_ES'">
+              <v-card-subtitle v-if="this.$i18n.locale === 'es-ES'">
                 {{ card.cardsubtitle.esES }}
               </v-card-subtitle>
-              <v-card-subtitle v-if="this.$i18n.locale === 'en_US'">
+              <v-card-subtitle v-if="this.$i18n.locale === 'en-US'">
                 {{ card.cardsubtitle.enUS }}
               </v-card-subtitle>
 
@@ -46,13 +48,13 @@
                 <div v-show="card.show">
                   <v-divider></v-divider>
 
-                  <v-card-text v-if="this.$i18n.locale === 'pt_BR'">
+                  <v-card-text v-if="this.$i18n.locale === 'pt-BR'">
                     {{ card.cardtext.ptBR }}
                   </v-card-text>
-                  <v-card-text v-if="this.$i18n.locale === 'es_ES'">
+                  <v-card-text v-if="this.$i18n.locale === 'es-ES'">
                     {{ card.cardtext.esES }}
                   </v-card-text>
-                  <v-card-text v-if="this.$i18n.locale === 'en_US'">
+                  <v-card-text v-if="this.$i18n.locale === 'en-US'">
                     {{ card.cardtext.enUS }}
                   </v-card-text>
                 </div>

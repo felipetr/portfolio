@@ -1,5 +1,11 @@
 {
     "cards": [],
+    "ddi": "IDD",
+    "phone": "Phone / Mobile",
+    "validation":{
+        "required": "Required field!",
+        "invalid_email": "Invalid email!"
+    },    
     "meta": {
         "description": "Fullstack developer from Recife, Pernambuco, Brazil. Explore my projects and skills.",
         "title": "Felipe Travassos - Fullstack Developer",
@@ -74,6 +80,7 @@
     "explore": "Go to",
     "powered": "Powered by",
     "contactme_title": "Contact",
+    "contactme_subtitle": "Let's have a chat.",
     "aboutme_content_p1": "Hello and welcome to my website/portfolio.",
     "aboutme_content_p2": "I am a fullstack developer from Recife, Pernambuco, Brazil, with extensive experience and knowledge, working in web application development since 2010.",
     "aboutme_content_p3": "With a career that started in the era of Flash, I have accumulated a broad mastery of development methodologies and tools, communication theory, video editing and assembly, music and sound, design, and typography. My technical versatility and creativity enable me to deliver robust and innovative solutions.",

@@ -24,7 +24,7 @@
             </template>
           </v-select>
         </div>
-        <div class="p6"><hr /></div>
+        <v-divider></v-divider>
         <nav color="transparent">
         <ul class="navUl">
           <li>
@@ -85,9 +85,9 @@ export default {
       isOpened: "",
       selectedLanguage: { text: this.$t("language_name"), value: this.$i18n.locale },
       languages: [
-        { text: "English", value: "en_US" },
-        { text: "Español", value: "es_ES" },
-        { text: "Português", value: "pt_BR" },
+        { text: "English", value: "en-US" },
+        { text: "Español", value: "es-ES" },
+        { text: "Português", value: "pt-BR" },
       ],
     };
   },

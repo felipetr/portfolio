@@ -7,9 +7,9 @@
           <p class="text-center mb-4">{{ $t("hard_skills_subtitle") }}</p>
           <v-row>
             <v-col cols="12" md="6" v-for="(skill, index) in sortedHardSkills" :key="index">
-              <div v-if="this.$i18n.locale === 'pt_BR'">{{ skill.title.ptBR }}</div>
-              <div v-if="this.$i18n.locale === 'es_ES'">{{ skill.title.esES }}</div>
-              <div v-if="this.$i18n.locale === 'en_US'">{{ skill.title.enUS }}</div>
+              <div v-if="this.$i18n.locale === 'pt-BR'">{{ skill.title.ptBR }}</div>
+              <div v-if="this.$i18n.locale === 'es-ES'">{{ skill.title.esES }}</div>
+              <div v-if="this.$i18n.locale === 'en-US'">{{ skill.title.enUS }}</div>
               <v-progress-linear
                 :color="green"
                 :model-value="skill.perc"
@@ -52,7 +52,9 @@
               v-for="(lang, index) in langskills"
               :key="index"
             >
-              <v-card :color="blue">
+            <v-skeleton-loader v-if="loading" type="card"
+            :rounded="true" :height="400"></v-skeleton-loader>
+            <v-card v-else :color="blue">
                 <v-card-title>
                   {{ $t(`${lang.lang}`) }}
                 </v-card-title>
@@ -69,7 +71,6 @@
                 <v-expand-transition>
                   <div v-show="lang.show">
                     <v-card-text>
-
                       <div>{{ $t(`language_skills.${lang.level}.desc`) }}</div>
                     </v-card-text>
                   </div>

@@ -1,9 +1,11 @@
 import { createApp } from 'vue';
 import { createI18n } from 'vue-i18n';
 import { createHead } from '@vueuse/head';
+import axios from 'axios'; // Importe o Axios
 import App from './App.vue';
 import vuetify from './plugins/vuetify';
 import loadFonts from './plugins/webfontloader';
+import './assets/libs/flag-icons/css/flag-icons.min.css';
 import './assets/css/styles.css';
 
 import ptBR from './locales/ptBR.json';
@@ -15,9 +17,9 @@ loadFonts();
 const head = createHead();
 
 const messages = {
-  en_US: enUS,
-  es_ES: esES,
-  pt_BR: ptBR
+  'en-US': enUS,
+  'es-ES': esES,
+  'pt-BR': ptBR
 };
 
 const getBrowserLanguage = () => {
@@ -25,11 +27,11 @@ const getBrowserLanguage = () => {
 
   switch (true) {
     case lang.startsWith('pt'):
-      return 'pt_BR';
+      return 'pt-BR';
     case lang.startsWith('es'):
-      return 'es_ES';
+      return 'es-ES';
     default:
-      return 'en_US';
+      return 'en-US';
   }
 };
 
@@ -39,7 +41,11 @@ const i18n = createI18n({
   messages,
 });
 
-createApp(App)
+const app = createApp(App);
+
+app.config.globalProperties.$axios = axios;
+
+app
   .use(vuetify)
   .use(head)
   .use(i18n)

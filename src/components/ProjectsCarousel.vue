@@ -17,7 +17,9 @@
           <v-row>
             <v-col class="text-center p-3"
             :cols="cols" v-for="(project, idx) in projectgroup" :key="idx">
-              <v-img
+            <v-skeleton-loader v-if="loading"
+            type="card-avatar" :rounded="true" :height="400"></v-skeleton-loader>
+              <v-img v-else
                 :style="'background: ' +
                 'url(' + require(`@/assets/images/projects/${project.logo}`) + '); ' +
                 'background-size: contain; background-repeat: no-repeat; ' +

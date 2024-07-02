@@ -1,9 +1,8 @@
 .DS_Store
 node_modules
 /dist
-.env.local
-.env
-.env.*.local
+.env.development
+.env.production
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -28,3 +27,4 @@ yarn-build-cache/
 config.json
 Thumbs.db
 package-lock.json
+certs/*

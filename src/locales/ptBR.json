@@ -1,5 +1,11 @@
 {
     "cards": [],
+    "ddi": "DDI",
+    "phone": "Telefone / Celular",
+    "validation":{
+        "required": "Campo Obrigatório!",
+        "invalid_email": "E-mail inválido!"
+    },
     "meta":{
         "description": "Desenvolvedor fullstack de Recife, Pernambuco, Brasil. Conheça meus projetos e habilidades.",
         "title": "Felipe Travassos - Desenvolvedor Fullstack",
@@ -74,6 +80,7 @@
     "explore": "Visitar",
     "powered": "Desenvolvido com",
     "contactme_title": "Contato",
+    "contactme_subtitle": "Vamos bater um papo?",
     "aboutme_content_p1": "Olá e bem-vindo ao meu website / portfólio.",
     "aboutme_content_p2": "Sou um desenvolvedor fullstack de Recife, Pernambuco, Brasil, com vasta experiência e conhecimento, atuando no desenvolvimento de aplicações Web desde 2010.",
     "aboutme_content_p3": "Com uma carreira que começou na era do Flash, acumulei um amplo domínio de metodologias e ferramentas de desenvolvimento, teoria da comunicação, edição e montagem de vídeo, música e som, design e tipografia. Minha versatilidade técnica e criatividade me permitem entregar soluções robustas e inovadoras.",

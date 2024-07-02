@@ -17,7 +17,6 @@ import FluidBackground from '@/components/FluidBackground.vue';
 
 export default {
   name: 'HomeSection',
-
   components: {
     FluidBackground,
   },

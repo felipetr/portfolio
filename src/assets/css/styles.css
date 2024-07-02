@@ -1,4 +1,5 @@
 @import url(https://db.onlinewebfonts.com/c/ea250342ec4016561ba9e791c2f39c11?family=Posterama+2001+W04+Regular);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
 *,
 :root {
@@ -153,6 +154,11 @@ h6 {
   width: 100%;
   max-width: 500px !important;
 }
+
+.loader {
+  width: 100%;
+  max-width: 120px !important;
+}
 .text-center {
   text-align: center;
 }
@@ -281,6 +287,34 @@ hr {
 .navUl li a:hover,
 .green-color {
   color: var(--green);
+}
+#loader
+{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 888;
+  background: var(--darkest-blue-opacity8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  padding: 30px;
+  transition: all 500ms ease 0s;
+  opacity: 1;
+}
+.opacity-to-zero
+{
+  opacity: 0 !important;
+}
+.v-text-field .v-input__details {
+  padding-inline: 0 !important
+}
+.v-messages__message {
+  text-align: left;
+  padding-bottom: 15px;
 }
 @media (max-width: 480px) {
   .sociallinks {

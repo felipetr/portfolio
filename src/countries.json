@@ -1,0 +1,1691 @@
+{
+  "countries": [
+    {
+      "ptBR": "Andorra",
+      "enUS": "Andorra",
+      "esES": "Andorra",
+      "code": "+376",
+      "flag": "ad"
+    },
+    {
+      "ptBR": "Emirados Árabes Unidos",
+      "enUS": "United Arab Emirates",
+      "esES": "Emiratos Árabes Unidos",
+      "code": "+971",
+      "flag": "ae"
+    },
+    {
+      "ptBR": "Afeganistão",
+      "enUS": "Afghanistan",
+      "esES": "Afganistán",
+      "code": "+93",
+      "flag": "af"
+    },
+    {
+      "ptBR": "Antígua e Barbuda",
+      "enUS": "Antigua and Barbuda",
+      "esES": "Antigua y Barbuda",
+      "code": "+1-268",
+      "flag": "ag"
+    },
+    {
+      "ptBR": "Anguilla",
+      "enUS": "Anguilla",
+      "esES": "Anguila",
+      "code": "+1-264",
+      "flag": "ai"
+    },
+    {
+      "ptBR": "Albânia",
+      "enUS": "Albania",
+      "esES": "Albania",
+      "code": "+355",
+      "flag": "al"
+    },
+    {
+      "ptBR": "Armênia",
+      "enUS": "Armenia",
+      "esES": "Armenia",
+      "code": "+374",
+      "flag": "am"
+    },
+    {
+      "ptBR": "Antilhas Holandesas",
+      "enUS": "Netherlands Antilles",
+      "esES": "Antillas Neerlandesas",
+      "code": "+599",
+      "flag": "an"
+    },
+    {
+      "ptBR": "Angola",
+      "enUS": "Angola",
+      "esES": "Angola",
+      "code": "+244",
+      "flag": "ao"
+    },
+    {
+      "ptBR": "Antártica",
+      "enUS": "Antarctica",
+      "esES": "Antártida",
+      "code": "+672",
+      "flag": "aq"
+    },
+    {
+      "ptBR": "Argentina",
+      "enUS": "Argentina",
+      "esES": "Argentina",
+      "code": "+54",
+      "flag": "ar"
+    },
+    {
+      "ptBR": "Samoa Americana",
+      "enUS": "American Samoa",
+      "esES": "Samoa Americana",
+      "code": "+1-684",
+      "flag": "as"
+    },
+    {
+      "ptBR": "Áustria",
+      "enUS": "Austria",
+      "esES": "Austria",
+      "code": "+43",
+      "flag": "at"
+    },
+    {
+      "ptBR": "Austrália",
+      "enUS": "Australia",
+      "esES": "Australia",
+      "code": "+61",
+      "flag": "au"
+    },
+    {
+      "ptBR": "Aruba",
+      "enUS": "Aruba",
+      "esES": "Aruba",
+      "code": "+297",
+      "flag": "aw"
+    },
+    {
+      "ptBR": "Ilhas Aland",
+      "enUS": "Åland Islands",
+      "esES": "Islas Åland",
+      "code": "+358",
+      "flag": "ax"
+    },
+    {
+      "ptBR": "Azerbaijão",
+      "enUS": "Azerbaijan",
+      "esES": "Azerbaijan",
+      "code": "+994",
+      "flag": "az"
+    },
+    {
+      "ptBR": "Bósnia e Herzegovina",
+      "enUS": "Bosnia and Herzegovina",
+      "esES": "Bosnia y Herzegovina",
+      "code": "+387",
+      "flag": "ba"
+    },
+    {
+      "ptBR": "Barbados",
+      "enUS": "Barbados",
+      "esES": "Barbados",
+      "code": "+1-246",
+      "flag": "bb"
+    },
+    {
+      "ptBR": "Bangladesh",
+      "enUS": "Bangladesh",
+      "esES": "Bangladesh",
+      "code": "+880",
+      "flag": "bd"
+    },
+    {
+      "ptBR": "Bélgica",
+      "enUS": "Belgium",
+      "esES": "Bélgica",
+      "code": "+32",
+      "flag": "be"
+    },
+    {
+      "ptBR": "Burkina Faso",
+      "enUS": "Burkina Faso",
+      "esES": "Burkina Faso",
+      "code": "+226",
+      "flag": "bf"
+    },
+    {
+      "ptBR": "Bulgária",
+      "enUS": "Bulgaria",
+      "esES": "Bulgaria",
+      "code": "+359",
+      "flag": "bg"
+    },
+    {
+      "ptBR": "Bahrein",
+      "enUS": "Bahrain",
+      "esES": "Bahréin",
+      "code": "+973",
+      "flag": "bh"
+    },
+    {
+      "ptBR": "Burundi",
+      "enUS": "Burundi",
+      "esES": "Burundi",
+      "code": "+257",
+      "flag": "bi"
+    },
+    {
+      "ptBR": "Benin",
+      "enUS": "Benin",
+      "esES": "Benín",
+      "code": "+229",
+      "flag": "bj"
+    },
+    {
+      "ptBR": "São Bartolomeu",
+      "enUS": "Saint Barthélemy",
+      "esES": "San Bartolomé",
+      "code": "+590",
+      "flag": "bl"
+    },
+    {
+      "ptBR": "Bermudas",
+      "enUS": "Bermuda",
+      "esES": "Bermudas",
+      "code": "+1-441",
+      "flag": "bm"
+    },
+    {
+      "ptBR": "Brunei Darussalam",
+      "enUS": "Brunei Darussalam",
+      "esES": "Brunei Darussalam",
+      "code": "+673",
+      "flag": "bn"
+    },
+    {
+      "ptBR": "Bolívia",
+      "enUS": "Bolivia",
+      "esES": "Bolivia",
+      "code": "+591",
+      "flag": "bo"
+    },
+    {
+      "ptBR": "Brasil",
+      "enUS": "Brazil",
+      "esES": "Brasil",
+      "code": "+55",
+      "flag": "br"
+    },
+    {
+      "ptBR": "Bahamas",
+      "enUS": "Bahamas",
+      "esES": "Bahamas",
+      "code": "+1-242",
+      "flag": "bs"
+    },
+    {
+      "ptBR": "Butão",
+      "enUS": "Bhutan",
+      "esES": "Bután",
+      "code": "+975",
+      "flag": "bt"
+    },
+    {
+      "ptBR": "Botsuana",
+      "enUS": "Botswana",
+      "esES": "Botswana",
+      "code": "+267",
+      "flag": "bw"
+    },
+    {
+      "ptBR": "Belarus",
+      "enUS": "Belarus",
+      "esES": "Belarús",
+      "code": "+375",
+      "flag": "by"
+    },
+    {
+      "ptBR": "Belize",
+      "enUS": "Belize",
+      "esES": "Belice",
+      "code": "+501",
+      "flag": "bz"
+    },
+    {
+      "ptBR": "Canadá",
+      "enUS": "Canada",
+      "esES": "Canadá",
+      "code": "+1",
+      "flag": "ca"
+    },
+    {
+      "ptBR": "Ilhas Cocos (Keeling)",
+      "enUS": "Cocos (Keeling) Islands",
+      "esES": "Islas Cocos (Keeling)",
+      "code": "+61",
+      "flag": "cc"
+    },
+    {
+      "ptBR": "República Democrática do Congo",
+      "enUS": "Congo, The Democratic Republic of the",
+      "esES": "Congo, República Democrática del",
+      "code": "+243",
+      "flag": "cd"
+    },
+    {
+      "ptBR": "República Centro-Africana",
+      "enUS": "Central African Republic",
+      "esES": "República Centroafricana",
+      "code": "+236",
+      "flag": "cf"
+    },
+    {
+      "ptBR": "Congo",
+      "enUS": "Congo",
+      "esES": "Congo",
+      "code": "+242",
+      "flag": "cg"
+    },
+    {
+      "ptBR": "Suíça",
+      "enUS": "Switzerland",
+      "esES": "Suiza",
+      "code": "+41",
+      "flag": "ch"
+    },
+    {
+      "ptBR": "Costa do Marfim",
+      "enUS": "Cote D'Ivoire",
+      "esES": "Costa de Marfil",
+      "code": "+225",
+      "flag": "ci"
+    },
+    {
+      "ptBR": "Ilhas Cook",
+      "enUS": "Cook Islands",
+      "esES": "Islas Cook",
+      "code": "+682",
+      "flag": "ck"
+    },
+    {
+      "ptBR": "Chile",
+      "enUS": "Chile",
+      "esES": "Chile",
+      "code": "+56",
+      "flag": "cl"
+    },
+    {
+      "ptBR": "Camarões",
+      "enUS": "Cameroon",
+      "esES": "Camerún",
+      "code": "+237",
+      "flag": "cm"
+    },
+    {
+      "ptBR": "China",
+      "enUS": "China",
+      "esES": "China",
+      "code": "+86",
+      "flag": "cn"
+    },
+    {
+      "ptBR": "Colômbia",
+      "enUS": "Colombia",
+      "esES": "Colombia",
+      "code": "+57",
+      "flag": "co"
+    },
+    {
+      "ptBR": "Costa Rica",
+      "enUS": "Costa Rica",
+      "esES": "Costa Rica",
+      "code": "+506",
+      "flag": "cr"
+    },
+    {
+      "ptBR": "Cuba",
+      "enUS": "Cuba",
+      "esES": "Cuba",
+      "code": "+53",
+      "flag": "cu"
+    },
+    {
+      "ptBR": "Cabo Verde",
+      "enUS": "Cape Verde",
+      "esES": "Cabo Verde",
+      "code": "+238",
+      "flag": "cv"
+    },
+    {
+      "ptBR": "Ilha de Natal",
+      "enUS": "Christmas Island",
+      "esES": "Isla de Navidad",
+      "code": "+61",
+      "flag": "cx"
+    },
+    {
+      "ptBR": "Chipre",
+      "enUS": "Cyprus",
+      "esES": "Chipre",
+      "code": "+357",
+      "flag": "cy"
+    },
+    {
+      "ptBR": "República Tcheca",
+      "enUS": "Czech Republic",
+      "esES": "República Checa",
+      "code": "+420",
+      "flag": "cz"
+    },
+    {
+      "ptBR": "Alemanha",
+      "enUS": "Germany",
+      "esES": "Alemania",
+      "code": "+49",
+      "flag": "de"
+    },
+    {
+      "ptBR": "Djibouti",
+      "enUS": "Djibouti",
+      "esES": "Yibuti",
+      "code": "+253",
+      "flag": "dj"
+    },
+    {
+      "ptBR": "Dinamarca",
+      "enUS": "Denmark",
+      "esES": "Dinamarca",
+      "code": "+45",
+      "flag": "dk"
+    },
+    {
+      "ptBR": "Dominica",
+      "enUS": "Dominica",
+      "esES": "Dominica",
+      "code": "+1-767",
+      "flag": "dm"
+    },
+    {
+      "ptBR": "República Dominicana",
+      "enUS": "Dominican Republic",
+      "esES": "República Dominicana",
+      "code": "+1-809, +1-829, +1-849",
+      "flag": "do"
+    },
+    {
+      "ptBR": "Argélia",
+      "enUS": "Algeria",
+      "esES": "Argelia",
+      "code": "+213",
+      "flag": "dz"
+    },
+    {
+      "ptBR": "Equador",
+      "enUS": "Ecuador",
+      "esES": "Ecuador",
+      "code": "+593",
+      "flag": "ec"
+    },
+    {
+      "ptBR": "Estônia",
+      "enUS": "Estonia",
+      "esES": "Estonia",
+      "code": "+372",
+      "flag": "ee"
+    },
+    {
+      "ptBR": "Egito",
+      "enUS": "Egypt",
+      "esES": "Egipto",
+      "code": "+20",
+      "flag": "eg"
+    },
+    {
+      "ptBR": "Saara Ocidental",
+      "enUS": "Western Sahara",
+      "esES": "Sahara Occidental",
+      "code": "+212",
+      "flag": "eh"
+    },
+    {
+      "ptBR": "Eritreia",
+      "enUS": "Eritrea",
+      "esES": "Eritrea",
+      "code": "+291",
+      "flag": "er"
+    },
+    {
+      "ptBR": "Espanha",
+      "enUS": "Spain",
+      "esES": "España",
+      "code": "+34",
+      "flag": "es"
+    },
+    {
+      "ptBR": "Etiópia",
+      "enUS": "Ethiopia",
+      "esES": "Etiopía",
+      "code": "+251",
+      "flag": "et"
+    },
+    {
+      "ptBR": "Finlândia",
+      "enUS": "Finland",
+      "esES": "Finlandia",
+      "code": "+358",
+      "flag": "fi"
+    },
+    {
+      "ptBR": "Fiji",
+      "enUS": "Fiji",
+      "esES": "Fiyi",
+      "code": "+679",
+      "flag": "fj"
+    },
+    {
+      "ptBR": "Ilhas Falkland (Malvinas)",
+      "enUS": "Falkland Islands (Malvinas)",
+      "esES": "Islas Malvinas",
+      "code": "+500",
+      "flag": "fk"
+    },
+    {
+      "ptBR": "Micronésia, Estados Federados da",
+      "enUS": "Micronesia, Federated States of",
+      "esES": "Micronesia, Estados Federados de",
+      "code": "+691",
+      "flag": "fm"
+    },
+    {
+      "ptBR": "Ilhas Faroe",
+      "enUS": "Faroe Islands",
+      "esES": "Islas Feroe",
+      "code": "+298",
+      "flag": "fo"
+    },
+    {
+      "ptBR": "França",
+      "enUS": "France",
+      "esES": "Francia",
+      "code": "+33",
+      "flag": "fr"
+    },
+    {
+      "ptBR": "Gabão",
+      "enUS": "Gabon",
+      "esES": "Gabón",
+      "code": "+241",
+      "flag": "ga"
+    },
+    {
+      "ptBR": "Reino Unido",
+      "enUS": "United Kingdom",
+      "esES": "Reino Unido",
+      "code": "+44",
+      "flag": "gb"
+    },
+    {
+      "ptBR": "Granada",
+      "enUS": "Grenada",
+      "esES": "Granada",
+      "code": "+1-473",
+      "flag": "gd"
+    },
+    {
+      "ptBR": "Geórgia",
+      "enUS": "Georgia",
+      "esES": "Georgia",
+      "code": "+995",
+      "flag": "ge"
+    },
+    {
+      "ptBR": "Guiana Francesa",
+      "enUS": "French Guiana",
+      "esES": "Guayana Francesa",
+      "code": "+594",
+      "flag": "gf"
+    },
+    {
+      "ptBR": "Guernsey",
+      "enUS": "Guernsey",
+      "esES": "Guernsey",
+      "code": "+44-1481",
+      "flag": "gg"
+    },
+    {
+      "ptBR": "Gana",
+      "enUS": "Ghana",
+      "esES": "Ghana",
+      "code": "+233",
+      "flag": "gh"
+    },
+    {
+      "ptBR": "Gibraltar",
+      "enUS": "Gibraltar",
+      "esES": "Gibraltar",
+      "code": "+350",
+      "flag": "gi"
+    },
+    {
+      "ptBR": "Groenlândia",
+      "enUS": "Greenland",
+      "esES": "Groenlandia",
+      "code": "+299",
+      "flag": "gl"
+    },
+    {
+      "ptBR": "Gâmbia",
+      "enUS": "Gambia",
+      "esES": "Gambia",
+      "code": "+220",
+      "flag": "gm"
+    },
+    {
+      "ptBR": "Guiné",
+      "enUS": "Guinea",
+      "esES": "Guinea",
+      "code": "+224",
+      "flag": "gn"
+    },
+    {
+      "ptBR": "Guadalupe",
+      "enUS": "Guadeloupe",
+      "esES": "Guadalupe",
+      "code": "+590",
+      "flag": "gp"
+    },
+    {
+      "ptBR": "Guiné Equatorial",
+      "enUS": "Equatorial Guinea",
+      "esES": "Guinea Ecuatorial",
+      "code": "+240",
+      "flag": "gq"
+    },
+    {
+      "ptBR": "Grécia",
+      "enUS": "Greece",
+      "esES": "Grecia",
+      "code": "+30",
+      "flag": "gr"
+    },
+    {
+      "ptBR": "Guatemala",
+      "enUS": "Guatemala",
+      "esES": "Guatemala",
+      "code": "+502",
+      "flag": "gt"
+    },
+    {
+      "ptBR": "Guam",
+      "enUS": "Guam",
+      "esES": "Guam",
+      "code": "+1-671",
+      "flag": "gu"
+    },
+    {
+      "ptBR": "Guiné-Bissau",
+      "enUS": "Guinea-Bissau",
+      "esES": "Guinea-Bissau",
+      "code": "+245",
+      "flag": "gw"
+    },
+    {
+      "ptBR": "Guiana",
+      "enUS": "Guyana",
+      "esES": "Guyana",
+      "code": "+592",
+      "flag": "gy"
+    },
+    {
+      "ptBR": "Hong Kong",
+      "enUS": "Hong Kong",
+      "esES": "Hong Kong",
+      "code": "+852",
+      "flag": "hk"
+    },
+    {
+      "ptBR": "Honduras",
+      "enUS": "Honduras",
+      "esES": "Honduras",
+      "code": "+504",
+      "flag": "hn"
+    },
+    {
+      "ptBR": "Croácia",
+      "enUS": "Croatia",
+      "esES": "Croacia",
+      "code": "+385",
+      "flag": "hr"
+    },
+    {
+      "ptBR": "Haiti",
+      "enUS": "Haiti",
+      "esES": "Haití",
+      "code": "+509",
+      "flag": "ht"
+    },
+    {
+      "ptBR": "Hungria",
+      "enUS": "Hungary",
+      "esES": "Hungría",
+      "code": "+36",
+      "flag": "hu"
+    },
+    {
+      "ptBR": "Indonésia",
+      "enUS": "Indonesia",
+      "esES": "Indonesia",
+      "code": "+62",
+      "flag": "id"
+    },
+    {
+      "ptBR": "Irlanda",
+      "enUS": "Ireland",
+      "esES": "Irlanda",
+      "code": "+353",
+      "flag": "ie"
+    },
+    {
+      "ptBR": "Israel",
+      "enUS": "Israel",
+      "esES": "Israel",
+      "code": "+972",
+      "flag": "il"
+    },
+    {
+      "ptBR": "Ilha de Man",
+      "enUS": "Isle of Man",
+      "esES": "Isla de Man",
+      "code": "+44-1624",
+      "flag": "im"
+    },
+    {
+      "ptBR": "Índia",
+      "enUS": "India",
+      "esES": "India",
+      "code": "+91",
+      "flag": "in"
+    },
+    {
+      "ptBR": "Território Britânico do Oceano Índico",
+      "enUS": "British Indian Ocean Territory",
+      "esES": "Territorio Británico del Océano Índico",
+      "code": "+246",
+      "flag": "io"
+    },
+    {
+      "ptBR": "Iraque",
+      "enUS": "Iraq",
+      "esES": "Irak",
+      "code": "+964",
+      "flag": "iq"
+    },
+    {
+      "ptBR": "Irã, República Islâmica do",
+      "enUS": "Iran, Islamic Republic of",
+      "esES": "Irán, República Islámica de",
+      "code": "+98",
+      "flag": "ir"
+    },
+    {
+      "ptBR": "Islândia",
+      "enUS": "Iceland",
+      "esES": "Islandia",
+      "code": "+354",
+      "flag": "is"
+    },
+    {
+      "ptBR": "Itália",
+      "enUS": "Italy",
+      "esES": "Italia",
+      "code": "+39",
+      "flag": "it"
+    },
+    {
+      "ptBR": "Jersey",
+      "enUS": "Jersey",
+      "esES": "Jersey",
+      "code": "+44-1534",
+      "flag": "je"
+    },
+    {
+      "ptBR": "Jamaica",
+      "enUS": "Jamaica",
+      "esES": "Jamaica",
+      "code": "+1-876",
+      "flag": "jm"
+    },
+    {
+      "ptBR": "Jordânia",
+      "enUS": "Jordan",
+      "esES": "Jordania",
+      "code": "+962",
+      "flag": "jo"
+    },
+    {
+      "ptBR": "Japão",
+      "enUS": "Japan",
+      "esES": "Japón",
+      "code": "+81",
+      "flag": "jp"
+    },
+    {
+      "ptBR": "Quênia",
+      "enUS": "Kenya",
+      "esES": "Kenia",
+      "code": "+254",
+      "flag": "ke"
+    },
+    {
+      "ptBR": "Quirguistão",
+      "enUS": "Kyrgyzstan",
+      "esES": "Kirguistán",
+      "code": "+996",
+      "flag": "kg"
+    },
+    {
+      "ptBR": "Camboja",
+      "enUS": "Cambodia",
+      "esES": "Camboya",
+      "code": "+855",
+      "flag": "kh"
+    },
+    {
+      "ptBR": "Kiribati",
+      "enUS": "Kiribati",
+      "esES": "Kiribati",
+      "code": "+686",
+      "flag": "ki"
+    },
+    {
+      "ptBR": "Comores",
+      "enUS": "Comoros",
+      "esES": "Comoras",
+      "code": "+269",
+      "flag": "km"
+    },
+    {
+      "ptBR": "Saint Kitts e Nevis",
+      "enUS": "Saint Kitts and Nevis",
+      "esES": "San Cristóbal y Nieves",
+      "code": "+1-869",
+      "flag": "kn"
+    },
+    {
+      "ptBR": "Coreia, República Popular Democrática da",
+      "enUS": "Korea, Democratic People's Republic of",
+      "esES": "Corea, República Popular Democrática de",
+      "code": "+850",
+      "flag": "kp"
+    },
+    {
+      "ptBR": "Coreia, República da",
+      "enUS": "Korea, Republic of",
+      "esES": "Corea, República de",
+      "code": "+82",
+      "flag": "kr"
+    },
+    {
+      "ptBR": "Kuwait",
+      "enUS": "Kuwait",
+      "esES": "Kuwait",
+      "code": "+965",
+      "flag": "kw"
+    },
+    {
+      "ptBR": "Ilhas Cayman",
+      "enUS": "Cayman Islands",
+      "esES": "Islas Caimán",
+      "code": "+1-345",
+      "flag": "ky"
+    },
+    {
+      "ptBR": "Cazaquistão",
+      "enUS": "Kazakhstan",
+      "esES": "Kazajistán",
+      "code": "+7",
+      "flag": "kz"
+    },
+    {
+      "ptBR": "República Democrática Popular do Laos",
+      "enUS": "Lao People's Democratic Republic",
+      "esES": "República Democrática Popular de Laos",
+      "code": "+856",
+      "flag": "la"
+    },
+    {
+      "ptBR": "Líbano",
+      "enUS": "Lebanon",
+      "esES": "Líbano",
+      "code": "+961",
+      "flag": "lb"
+    },
+    {
+      "ptBR": "Santa Lúcia",
+      "enUS": "Saint Lucia",
+      "esES": "Santa Lucía",
+      "code": "+1-758",
+      "flag": "lc"
+    },
+    {
+      "ptBR": "Liechtenstein",
+      "enUS": "Liechtenstein",
+      "esES": "Liechtenstein",
+      "code": "+423",
+      "flag": "li"
+    },
+    {
+      "ptBR": "Sri Lanka",
+      "enUS": "Sri Lanka",
+      "esES": "Sri Lanka",
+      "code": "+94",
+      "flag": "lk"
+    },
+    {
+      "ptBR": "Libéria",
+      "enUS": "Liberia",
+      "esES": "Liberia",
+      "code": "+231",
+      "flag": "lr"
+    },
+    {
+      "ptBR": "Lesoto",
+      "enUS": "Lesotho",
+      "esES": "Lesoto",
+      "code": "+266",
+      "flag": "ls"
+    },
+    {
+      "ptBR": "Lituânia",
+      "enUS": "Lithuania",
+      "esES": "Lituania",
+      "code": "+370",
+      "flag": "lt"
+    },
+    {
+      "ptBR": "Luxemburgo",
+      "enUS": "Luxembourg",
+      "esES": "Luxemburgo",
+      "code": "+352",
+      "flag": "lu"
+    },
+    {
+      "ptBR": "Letônia",
+      "enUS": "Latvia",
+      "esES": "Letonia",
+      "code": "+371",
+      "flag": "lv"
+    },
+    {
+      "ptBR": "Jamahiriya Árabe Líbia",
+      "enUS": "Libyan Arab Jamahiriya",
+      "esES": "Libia Árabe Jamahiriya",
+      "code": "+218",
+      "flag": "ly"
+    },
+    {
+      "ptBR": "Marrocos",
+      "enUS": "Morocco",
+      "esES": "Marruecos",
+      "code": "+212",
+      "flag": "ma"
+    },
+    {
+      "ptBR": "Mônaco",
+      "enUS": "Monaco",
+      "esES": "Mónaco",
+      "code": "+377",
+      "flag": "mc"
+    },
+    {
+      "ptBR": "Moldávia, República da",
+      "enUS": "Moldova, Republic of",
+      "esES": "Moldavia, República de",
+      "code": "+373",
+      "flag": "md"
+    },
+    {
+      "ptBR": "Montenegro",
+      "enUS": "Montenegro",
+      "esES": "Montenegro",
+      "code": "+382",
+      "flag": "me"
+    },
+    {
+      "ptBR": "Saint Martin (parte francesa)",
+      "enUS": "Saint Martin (French part)",
+      "esES": "San Martín (parte francesa)",
+      "code": "+590",
+      "flag": "mf"
+    },
+    {
+      "ptBR": "Madagascar",
+      "enUS": "Madagascar",
+      "esES": "Madagascar",
+      "code": "+261",
+      "flag": "mg"
+    },
+    {
+      "ptBR": "Ilhas Marshall",
+      "enUS": "Marshall Islands",
+      "esES": "Islas Marshall",
+      "code": "+692",
+      "flag": "mh"
+    },
+    {
+      "ptBR": "Macedônia, Antiga República Iugoslava da",
+      "enUS": "Macedonia, The Former Yugoslav Republic of",
+      "esES": "Macedonia, Antigua República Yugoslava de",
+      "code": "+389",
+      "flag": "mk"
+    },
+    {
+      "ptBR": "Mali",
+      "enUS": "Mali",
+      "esES": "Mali",
+      "code": "+223",
+      "flag": "ml"
+    },
+    {
+      "ptBR": "Myanmar",
+      "enUS": "Myanmar",
+      "esES": "Myanmar",
+      "code": "+95",
+      "flag": "mm"
+    },
+    {
+      "ptBR": "Mongólia",
+      "enUS": "Mongolia",
+      "esES": "Mongolia",
+      "code": "+976",
+      "flag": "mn"
+    },
+    {
+      "ptBR": "Macao",
+      "enUS": "Macao",
+      "esES": "Macao",
+      "code": "+853",
+      "flag": "mo"
+    },
+    {
+      "ptBR": "Ilhas Marianas do Norte",
+      "enUS": "Northern Mariana Islands",
+      "esES": "Islas Marianas del Norte",
+      "code": "+1-670",
+      "flag": "mp"
+    },
+    {
+      "ptBR": "Martinica",
+      "enUS": "Martinique",
+      "esES": "Martinica",
+      "code": "+596",
+      "flag": "mq"
+    },
+    {
+      "ptBR": "Mauritânia",
+      "enUS": "Mauritania",
+      "esES": "Mauritania",
+      "code": "+222",
+      "flag": "mr"
+    },
+    {
+      "ptBR": "Montserrat",
+      "enUS": "Montserrat",
+      "esES": "Montserrat",
+      "code": "+1-664",
+      "flag": "ms"
+    },
+    {
+      "ptBR": "Malta",
+      "enUS": "Malta",
+      "esES": "Malta",
+      "code": "+356",
+      "flag": "mt"
+    },
+    {
+      "ptBR": "Maurícia",
+      "enUS": "Mauritius",
+      "esES": "Mauricio",
+      "code": "+230",
+      "flag": "mu"
+    },
+    {
+      "ptBR": "Maldivas",
+      "enUS": "Maldives",
+      "esES": "Maldivas",
+      "code": "+960",
+      "flag": "mv"
+    },
+    {
+      "ptBR": "Malawi",
+      "enUS": "Malawi",
+      "esES": "Malawi",
+      "code": "+265",
+      "flag": "mw"
+    },
+    {
+      "ptBR": "México",
+      "enUS": "Mexico",
+      "esES": "México",
+      "code": "+52",
+      "flag": "mx"
+    },
+    {
+      "ptBR": "Malásia",
+      "enUS": "Malaysia",
+      "esES": "Malasia",
+      "code": "+60",
+      "flag": "my"
+    },
+    {
+      "ptBR": "Moçambique",
+      "enUS": "Mozambique",
+      "esES": "Mozambique",
+      "code": "+258",
+      "flag": "mz"
+    },
+    {
+      "ptBR": "Namíbia",
+      "enUS": "Namibia",
+      "esES": "Namibia",
+      "code": "+264",
+      "flag": "na"
+    },
+    {
+      "ptBR": "Nova Caledônia",
+      "enUS": "New Caledonia",
+      "esES": "Nueva Caledonia",
+      "code": "+687",
+      "flag": "nc"
+    },
+    {
+      "ptBR": "Níger",
+      "enUS": "Niger",
+      "esES": "Níger",
+      "code": "+227",
+      "flag": "ne"
+    },
+    {
+      "ptBR": "Ilha Norfolk",
+      "enUS": "Norfolk Island",
+      "esES": "Isla Norfolk",
+      "code": "+672",
+      "flag": "nf"
+    },
+    {
+      "ptBR": "Nigéria",
+      "enUS": "Nigeria",
+      "esES": "Nigeria",
+      "code": "+234",
+      "flag": "ng"
+    },
+    {
+      "ptBR": "Nicarágua",
+      "enUS": "Nicaragua",
+      "esES": "Nicaragua",
+      "code": "+505",
+      "flag": "ni"
+    },
+    {
+      "ptBR": "Países Baixos",
+      "enUS": "Netherlands",
+      "esES": "Países Bajos",
+      "code": "+31",
+      "flag": "nl"
+    },
+    {
+      "ptBR": "Noruega",
+      "enUS": "Norway",
+      "esES": "Noruega",
+      "code": "+47",
+      "flag": "no"
+    },
+    {
+      "ptBR": "Nepal",
+      "enUS": "Nepal",
+      "esES": "Nepal",
+      "code": "+977",
+      "flag": "np"
+    },
+    {
+      "ptBR": "Nauru",
+      "enUS": "Nauru",
+      "esES": "Nauru",
+      "code": "+674",
+      "flag": "nr"
+    },
+    {
+      "ptBR": "Niue",
+      "enUS": "Niue",
+      "esES": "Niue",
+      "code": "+683",
+      "flag": "nu"
+    },
+    {
+      "ptBR": "Nova Zelândia",
+      "enUS": "New Zealand",
+      "esES": "Nueva Zelanda",
+      "code": "+64",
+      "flag": "nz"
+    },
+    {
+      "ptBR": "Omã",
+      "enUS": "Oman",
+      "esES": "Omán",
+      "code": "+968",
+      "flag": "om"
+    },
+    {
+      "ptBR": "Panamá",
+      "enUS": "Panama",
+      "esES": "Panamá",
+      "code": "+507",
+      "flag": "pa"
+    },
+    {
+      "ptBR": "Peru",
+      "enUS": "Peru",
+      "esES": "Perú",
+      "code": "+51",
+      "flag": "pe"
+    },
+    {
+      "ptBR": "Polinésia Francesa",
+      "enUS": "French Polynesia",
+      "esES": "Polinesia Francesa",
+      "code": "+689",
+      "flag": "pf"
+    },
+    {
+      "ptBR": "Papua Nova Guiné",
+      "enUS": "Papua New Guinea",
+      "esES": "Papúa Nueva Guinea",
+      "code": "+675",
+      "flag": "pg"
+    },
+    {
+      "ptBR": "Filipinas",
+      "enUS": "Philippines",
+      "esES": "Filipinas",
+      "code": "+63",
+      "flag": "ph"
+    },
+    {
+      "ptBR": "Paquistão",
+      "enUS": "Pakistan",
+      "esES": "Pakistán",
+      "code": "+92",
+      "flag": "pk"
+    },
+    {
+      "ptBR": "Polônia",
+      "enUS": "Poland",
+      "esES": "Polonia",
+      "code": "+48",
+      "flag": "pl"
+    },
+    {
+      "ptBR": "Saint Pierre e Miquelon",
+      "enUS": "Saint Pierre and Miquelon",
+      "esES": "San Pedro y Miquelón",
+      "code": "+508",
+      "flag": "pm"
+    },
+    {
+      "ptBR": "Ilhas Pitcairn",
+      "enUS": "Pitcairn",
+      "esES": "Islas Pitcairn",
+      "code": "+870",
+      "flag": "pn"
+    },
+    {
+      "ptBR": "Porto Rico",
+      "enUS": "Puerto Rico",
+      "esES": "Puerto Rico",
+      "code": "+1-787",
+      "flag": "pr"
+    },
+    {
+      "ptBR": "Palestina, Estado da",
+      "enUS": "Palestine, State of",
+      "esES": "Palestina, Estado de",
+      "code": "+970",
+      "flag": "ps"
+    },
+    {
+      "ptBR": "Portugal",
+      "enUS": "Portugal",
+      "esES": "Portugal",
+      "code": "+351",
+      "flag": "pt"
+    },
+    {
+      "ptBR": "Palau",
+      "enUS": "Palau",
+      "esES": "Palau",
+      "code": "+680",
+      "flag": "pw"
+    },
+    {
+      "ptBR": "Paraguai",
+      "enUS": "Paraguay",
+      "esES": "Paraguay",
+      "code": "+595",
+      "flag": "py"
+    },
+    {
+      "ptBR": "Catar",
+      "enUS": "Qatar",
+      "esES": "Catar",
+      "code": "+974",
+      "flag": "qa"
+    },
+    {
+      "ptBR": "Reunião",
+      "enUS": "Reunion",
+      "esES": "Reunión",
+      "code": "+262",
+      "flag": "re"
+    },
+    {
+      "ptBR": "Romênia",
+      "enUS": "Romania",
+      "esES": "Rumania",
+      "code": "+40",
+      "flag": "ro"
+    },
+    {
+      "ptBR": "Sérvia",
+      "enUS": "Serbia",
+      "esES": "Serbia",
+      "code": "+381",
+      "flag": "rs"
+    },
+    {
+      "ptBR": "Federação Russa",
+      "enUS": "Russian Federation",
+      "esES": "Federación Rusa",
+      "code": "+7",
+      "flag": "ru"
+    },
+    {
+      "ptBR": "Ruanda",
+      "enUS": "Rwanda",
+      "esES": "Ruanda",
+      "code": "+250",
+      "flag": "rw"
+    },
+    {
+      "ptBR": "Arábia Saudita",
+      "enUS": "Saudi Arabia",
+      "esES": "Arabia Saudita",
+      "code": "+966",
+      "flag": "sa"
+    },
+    {
+      "ptBR": "Ilhas Salomão",
+      "enUS": "Solomon Islands",
+      "esES": "Islas Salomón",
+      "code": "+677",
+      "flag": "sb"
+    },
+    {
+      "ptBR": "Seicheles",
+      "enUS": "Seychelles",
+      "esES": "Seychelles",
+      "code": "+248",
+      "flag": "sc"
+    },
+    {
+      "ptBR": "Sudão",
+      "enUS": "Sudan",
+      "esES": "Sudán",
+      "code": "+249",
+      "flag": "sd"
+    },
+    {
+      "ptBR": "Suécia",
+      "enUS": "Sweden",
+      "esES": "Suecia",
+      "code": "+46",
+      "flag": "se"
+    },
+    {
+      "ptBR": "Singapura",
+      "enUS": "Singapore",
+      "esES": "Singapur",
+      "code": "+65",
+      "flag": "sg"
+    },
+    {
+      "ptBR": "Santa Helena, Ascensão e Tristão da Cunha",
+      "enUS": "Saint Helena, Ascension and Tristan da Cunha",
+      "esES": "Santa Elena, Ascensión y Tristán de Acuña",
+      "code": "+290",
+      "flag": "sh"
+    },
+    {
+      "ptBR": "Eslovênia",
+      "enUS": "Slovenia",
+      "esES": "Eslovenia",
+      "code": "+386",
+      "flag": "si"
+    },
+    {
+      "ptBR": "Svalbard e Jan Mayen",
+      "enUS": "Svalbard and Jan Mayen",
+      "esES": "Svalbard y Jan Mayen",
+      "code": "+47",
+      "flag": "sj"
+    },
+    {
+      "ptBR": "Eslováquia",
+      "enUS": "Slovakia",
+      "esES": "Eslovaquia",
+      "code": "+421",
+      "flag": "sk"
+    },
+    {
+      "ptBR": "Serra Leoa",
+      "enUS": "Sierra Leone",
+      "esES": "Sierra Leona",
+      "code": "+232",
+      "flag": "sl"
+    },
+    {
+      "ptBR": "San Marino",
+      "enUS": "San Marino",
+      "esES": "San Marino",
+      "code": "+378",
+      "flag": "sm"
+    },
+    {
+      "ptBR": "Senegal",
+      "enUS": "Senegal",
+      "esES": "Senegal",
+      "code": "+221",
+      "flag": "sn"
+    },
+    {
+      "ptBR": "Somália",
+      "enUS": "Somalia",
+      "esES": "Somalia",
+      "code": "+252",
+      "flag": "so"
+    },
+    {
+      "ptBR": "Suriname",
+      "enUS": "Suriname",
+      "esES": "Surinam",
+      "code": "+597",
+      "flag": "sr"
+    },
+    {
+      "ptBR": "São Tomé e Príncipe",
+      "enUS": "Sao Tome and Principe",
+      "esES": "Santo Tomé y Príncipe",
+      "code": "+239",
+      "flag": "st"
+    },
+    {
+      "ptBR": "El Salvador",
+      "enUS": "El Salvador",
+      "esES": "El Salvador",
+      "code": "+503",
+      "flag": "sv"
+    },
+    {
+      "ptBR": "República Árabe da Síria",
+      "enUS": "Syrian Arab Republic",
+      "esES": "República Árabe Siria",
+      "code": "+963",
+      "flag": "sy"
+    },
+    {
+      "ptBR": "Suazilândia",
+      "enUS": "Swaziland",
+      "esES": "Suazilandia",
+      "code": "+268",
+      "flag": "sz"
+    },
+    {
+      "ptBR": "Ilhas Turcas e Caicos",
+      "enUS": "Turks and Caicos Islands",
+      "esES": "Islas Turcas y Caicos",
+      "code": "+1-649",
+      "flag": "tc"
+    },
+    {
+      "ptBR": "Chade",
+      "enUS": "Chad",
+      "esES": "Chad",
+      "code": "+235",
+      "flag": "td"
+    },
+    {
+      "ptBR": "Togo",
+      "enUS": "Togo",
+      "esES": "Togo",
+      "code": "+228",
+      "flag": "tg"
+    },
+    {
+      "ptBR": "Tailândia",
+      "enUS": "Thailand",
+      "esES": "Tailandia",
+      "code": "+66",
+      "flag": "th"
+    },
+    {
+      "ptBR": "Tajiquistão",
+      "enUS": "Tajikistan",
+      "esES": "Tayikistán",
+      "code": "+992",
+      "flag": "tj"
+    },
+    {
+      "ptBR": "Tokelau",
+      "enUS": "Tokelau",
+      "esES": "Tokelau",
+      "code": "+690",
+      "flag": "tk"
+    },
+    {
+      "ptBR": "Timor-Leste",
+      "enUS": "Timor-Leste",
+      "esES": "Timor Oriental",
+      "code": "+670",
+      "flag": "tl"
+    },
+    {
+      "ptBR": "Turquemenistão",
+      "enUS": "Turkmenistan",
+      "esES": "Turkmenistán",
+      "code": "+993",
+      "flag": "tm"
+    },
+    {
+      "ptBR": "Tunísia",
+      "enUS": "Tunisia",
+      "esES": "Túnez",
+      "code": "+216",
+      "flag": "tn"
+    },
+    {
+      "ptBR": "Tonga",
+      "enUS": "Tonga",
+      "esES": "Tonga",
+      "code": "+676",
+      "flag": "to"
+    },
+    {
+      "ptBR": "Turquia",
+      "enUS": "Turkey",
+      "esES": "Turquía",
+      "code": "+90",
+      "flag": "tr"
+    },
+    {
+      "ptBR": "Trinidade e Tobago",
+      "enUS": "Trinidad and Tobago",
+      "esES": "Trinidad y Tobago",
+      "code": "+1-868",
+      "flag": "tt"
+    },
+    {
+      "ptBR": "Tuvalu",
+      "enUS": "Tuvalu",
+      "esES": "Tuvalu",
+      "code": "+688",
+      "flag": "tv"
+    },
+    {
+      "ptBR": "Taiwan",
+      "enUS": "Taiwan",
+      "esES": "Taiwán",
+      "code": "+886",
+      "flag": "tw"
+    },
+    {
+      "ptBR": "República Unida da Tanzânia",
+      "enUS": "Tanzania, United Republic of",
+      "esES": "República Unida de Tanzanía",
+      "code": "+255",
+      "flag": "tz"
+    },
+    {
+      "ptBR": "Ucrânia",
+      "enUS": "Ukraine",
+      "esES": "Ucrania",
+      "code": "+380",
+      "flag": "ua"
+    },
+    {
+      "ptBR": "Uganda",
+      "enUS": "Uganda",
+      "esES": "Uganda",
+      "code": "+256",
+      "flag": "ug"
+    },
+    {
+      "ptBR": "Estados Unidos",
+      "enUS": "United States",
+      "esES": "Estados Unidos",
+      "code": "+1",
+      "flag": "us"
+    },
+    {
+      "ptBR": "Uruguai",
+      "enUS": "Uruguay",
+      "esES": "Uruguay",
+      "code": "+598",
+      "flag": "uy"
+    },
+    {
+      "ptBR": "Uzbequistão",
+      "enUS": "Uzbekistan",
+      "esES": "Uzbekistán",
+      "code": "+998",
+      "flag": "uz"
+    },
+    {
+      "ptBR": "Santa Sé (Cidade do Vaticano)",
+      "enUS": "Holy See (Vatican City State)",
+      "esES": "Santa Sede (Ciudad del Vaticano)",
+      "code": "+379",
+      "flag": "va"
+    },
+    {
+      "ptBR": "São Vicente e Granadinas",
+      "enUS": "Saint Vincent and the Grenadines",
+      "esES": "San Vicente y las Granadinas",
+      "code": "+1-784",
+      "flag": "vc"
+    },
+    {
+      "ptBR": "Venezuela, República Bolivariana da",
+      "enUS": "Venezuela, Bolivarian Republic of",
+      "esES": "Venezuela, República Bolivariana de",
+      "code": "+58",
+      "flag": "ve"
+    },
+    {
+      "ptBR": "Ilhas Virgens Britânicas",
+      "enUS": "Virgin Islands, British",
+      "esES": "Islas Vírgenes Británicas",
+      "code": "+1-284",
+      "flag": "vg"
+    },
+    {
+      "ptBR": "Ilhas Virgens, EUA",
+      "enUS": "Virgin Islands, U.s.",
+      "esES": "Islas Vírgenes, EE.UU.",
+      "code": "+1-340",
+      "flag": "vi"
+    },
+    {
+      "ptBR": "Vietnã",
+      "enUS": "Viet Nam",
+      "esES": "Vietnam",
+      "code": "+84",
+      "flag": "vn"
+    },
+    {
+      "ptBR": "Vanuatu",
+      "enUS": "Vanuatu",
+      "esES": "Vanuatu",
+      "code": "+678",
+      "flag": "vu"
+    },
+    {
+      "ptBR": "Wallis e Futuna",
+      "enUS": "Wallis and Futuna",
+      "esES": "Wallis y Futuna",
+      "code": "+681",
+      "flag": "wf"
+    },
+    {
+      "ptBR": "Samoa",
+      "enUS": "Samoa",
+      "esES": "Samoa",
+      "code": "+685",
+      "flag": "ws"
+    },
+    {
+      "ptBR": "Iémen",
+      "enUS": "Yemen",
+      "esES": "Yemen",
+      "code": "+967",
+      "flag": "ye"
+    },
+    {
+      "ptBR": "Mayotte",
+      "enUS": "Mayotte",
+      "esES": "Mayotte",
+      "code": "+262",
+      "flag": "yt"
+    },
+    {
+      "ptBR": "África do Sul",
+      "enUS": "South Africa",
+      "esES": "Sudáfrica",
+      "code": "+27",
+      "flag": "za"
+    },
+    {
+      "ptBR": "Zâmbia",
+      "enUS": "Zambia",
+      "esES": "Zambia",
+      "code": "+260",
+      "flag": "zm"
+    },
+    {
+      "ptBR": "Zimbábue",
+      "enUS": "Zimbabwe",
+      "esES": "Zimbabwe",
+      "code": "+263",
+      "flag": "zw"
+    }
+  ]
+}

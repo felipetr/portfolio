@@ -2,12 +2,14 @@
   <v-app>
     <v-main>
       <div :class="isScrolled">
+        <AppLoader/>
         <HeaderNav/>
         <HomeSection/>
         <AboutSection/>
         <FolioSection/>
         <ProjectsCaroussel/>
         <SkillsSection/>
+        <ContactSection/>
         <AppFooter/>
       </div>
     </v-main>
@@ -18,19 +20,22 @@
 import { defineComponent, ref, onMounted, onUnmounted, watchEffect } from 'vue';
 import { useHead } from '@vueuse/head';
 import { useI18n } from 'vue-i18n';
+import ogimg from "@/assets/images/ogimg.jpg";
+import AppFooter from "@/components/AppFooter.vue";
 import HeaderNav from "@/components/HeaderNav.vue";
 import HomeSection from "@/components/HomeSection.vue";
 import AboutSection from "@/components/AboutSection.vue";
 import FolioSection from "@/components/FolioSection.vue";
 import ProjectsCaroussel from "@/components/ProjectsSection.vue";
-import AppFooter from "@/components/AppFooter.vue";
-import ogimg from "@/assets/images/ogimg.jpg";
+import AppLoader from "./components/AppLoader.vue";
 import SkillsSection from "./components/SkillsSection.vue";
+import ContactSection from "./components/ContactSection.vue";
 
 export default defineComponent({
   name: "App",
 
   components: {
+    AppLoader,
     HeaderNav,
     HomeSection,
     AboutSection,
@@ -38,6 +43,7 @@ export default defineComponent({
     ProjectsCaroussel,
     SkillsSection,
     AppFooter,
+    ContactSection
   },
 
   setup() {
