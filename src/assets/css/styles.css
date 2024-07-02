@@ -18,6 +18,10 @@
   --info: #0a406b;
   --warning: #935302;
 }
+.a-green
+{
+  color: var(--green) !important;
+}
 .grecaptcha-badge
 {
   z-index: 55;

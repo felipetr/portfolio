@@ -4,6 +4,7 @@
     "last_update": "Última Atualização",
     "see_certificate": "Ver Certificado",
     "phone": "Telefone / Celular",
+    "this_projetc": "Esse projeto pode ser acessado no ",
     "validation":{
         "required": "Campo Obrigatório!",
         "invalid_email": "E-mail inválido!"

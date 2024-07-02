@@ -5,6 +5,8 @@
       {{ siteTitle }} - 2024
       <br><small>{{ $t('powered') }} <a href="https://vuejs.org" target="_blank" title="Vue.js" class="vuelink">
         <i class="fa-brands fa-vuejs"></i> Vue.js</a></small>
+      <v-divider></v-divider>
+        <small>{{ $t('this_projetc') }} <a targuet class="a-green">GitHub</a></small>
     </v-col>
     </v-row>
   </v-footer>
