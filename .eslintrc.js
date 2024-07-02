@@ -12,6 +12,9 @@ module.exports = {
     parser: '@babel/eslint-parser',
     ecmaVersion: 2021,
   },
+  globals: {
+    grecaptcha: true,
+  },
   rules: {
     'no-plusplus': 'off',
     'brace-style': 'off',

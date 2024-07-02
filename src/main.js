@@ -1,13 +1,14 @@
 import { createApp } from 'vue';
 import { createI18n } from 'vue-i18n';
 import { createHead } from '@vueuse/head';
-import axios from 'axios'; // Importe o Axios
+import axios from 'axios';
+import { VueReCaptcha } from "vue-recaptcha-v3";
 import App from './App.vue';
 import vuetify from './plugins/vuetify';
 import loadFonts from './plugins/webfontloader';
+
 import './assets/libs/flag-icons/css/flag-icons.min.css';
 import './assets/css/styles.css';
-
 import ptBR from './locales/ptBR.json';
 import enUS from './locales/enUS.json';
 import esES from './locales/esES.json';
@@ -49,4 +50,5 @@ app
   .use(vuetify)
   .use(head)
   .use(i18n)
+  .use(VueReCaptcha, { siteKey: process.env.VUE_APP_RECAPTCHA_KEY })
   .mount('#app');

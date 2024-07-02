@@ -22,7 +22,7 @@ module.exports = defineConfig({
   configureWebpack: {
     resolve: {
       alias: {
-        'axios': 'axios',
+        axios: 'axios',
       },
     },
   },

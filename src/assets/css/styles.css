@@ -3,7 +3,7 @@
 
 *,
 :root {
-  --blue: #2c3159;
+  --blue: #2c3159;  
   --dark-blue: #222436;
   --darkest-blue: #141520;
   --footer-blue: #0f1018;
@@ -13,7 +13,43 @@
   --lighter-blue: #6f76af;
   --light-blue: #464c7c;
   --green: #74aa4d;
+  --danger: #511d26;
+  --success: #265928;
+  --info: #0a406b;
+  --warning: #935302;
 }
+.grecaptcha-badge
+{
+  z-index: 55;
+}
+.alertimg
+{
+  display: inline-block;
+  width: 50px;
+}
+.alert-danger, .alert-success,
+.alert-info, .alert-warning
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+.alert-danger
+{
+  color: var(--danger);
+}
+.alert-success
+{
+  color: var(--success);
+}
+.alert-info
+{
+  color: var(--danger);
+}
+.alert-warning
+{
+  color: var(--warning);
+}
+
 .footer
 {
   padding: 30px 0;
