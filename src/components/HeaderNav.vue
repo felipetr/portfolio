@@ -54,6 +54,14 @@
           </li>
           <li>
             <a
+              :title="$t('experiences_title')"
+              href="#experiences"
+              @click.prevent="scrollToAnchor('#experiences')"
+              >{{ $t("experiences_title") }}</a
+            >
+          </li>
+          <li>
+            <a
               :title="$t('certifications_title')"
               href="#education"
               @click.prevent="scrollToAnchor('#education')"
