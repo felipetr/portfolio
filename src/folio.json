@@ -49,8 +49,8 @@
       "show": false
     },
     {
-      "cardtitle": "AM Advocacia",
-      "externalUrl": "https://amadvocacia.com/a02e5-homepage/#wp-block-themeisle-blocks-advanced-column-bfdc2ec5",
+      "cardtitle": "Vila Sítio São João",
+      "externalUrl": "vilasitiosaojoao.com.br/",
       "cardsubtitle": {
         "ptBR": "Design e Desenvolvimento - Site Institucional",
         "esES": "Diseño y Desarrollo - Sitio Institucional",
@@ -78,6 +78,54 @@
         "enUS": "Development of a proprietary CSM website (PHP) for the Campina Grande subsection of the OAB - Paraíba, including responsive design, content integration, and search engine optimization (SEO)."    
       },
       "imageUrl": "oab.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "AM Advocacia",
+      "externalUrl": "https://amadvocacia.com/a02e5-homepage/#wp-block-themeisle-blocks-advanced-column-bfdc2ec5",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Site Institucional",
+        "esES": "Diseño y Desarrollo - Sitio Institucional",
+        "enUS": "Design and Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site para empresa de advocacia, incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web para una empresa de abogados, incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a website for a law firm, including responsive design, content integration, and optimization for search engines."
+      },
+      "imageUrl": "am.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "Além do Pão",
+      "externalUrl": "http://alemdopao.com.br",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Site Institucional",
+        "esES": "Diseño y Desarrollo - Sitio Institucional",
+        "enUS": "Design and Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site para padaria, incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web para una panadería, incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a website for a bakery, including responsive design, content integration, and optimization for search engines."
+      },
+      "imageUrl": "alemdopao.jpg",
+      "show": false
+    },
+    {
+      "cardtitle": "ACP - Associação Comercial de Pernambuco",
+      "externalUrl": "https://acpe.org.br",
+      "cardsubtitle": {
+        "ptBR": "Design e Desenvolvimento - Site Institucional",
+        "esES": "Diseño y Desarrollo - Sitio Institucional",
+        "enUS": "Design and Development - Institutional Website"
+      },
+      "cardtext": {
+        "ptBR": "Desenvolvimento de um site para associação comercial, incluindo design responsivo, integração de conteúdo e otimização para mecanismos de busca.",
+        "esES": "Desarrollo de un sitio web para una asociación comercia, incluyendo diseño responsivo, integración de contenido y optimización para motores de búsqueda.",
+        "enUS": "Development of a website for a commercial association, including responsive design, content integration, and optimization for search engines."
+      },
+      "imageUrl": "acp.jpg",
       "show": false
     },
     {

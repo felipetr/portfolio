@@ -62,7 +62,7 @@
     "spanish": "Spanish",
     "portuguese": "Portuguese",
     "college": "College Education",
-    "college_info": "Faculdade Maurício de Nassau | Recife - PE - Brazil | Social Communication - Digital Cinema Specialization (incomplete, 7 semesters, 87.5%)",
+    "college_info": "Faculdade Maurício de Nassau | Recife - PE - Brazil | Social Communication - Digital Cinema Specialization (incomplete, 7 quarters, 87.5%)",
     "message": "Message",
     "send": "Send",
     "sending": "Sending...",
@@ -74,8 +74,8 @@
     "skills_title": "Skills",
     "hard_skills_subtitle": "What I Master",
     "soft_skills_subtitle": "What I'm Good At",
-    "hard_skills": "Technical Skills",
-    "soft_skills": "Behavioral Skills",
+    "hard_skills": "Hard Skills",
+    "soft_skills": "Soft Skills",
     "certifications_title": "Education and Certifications",
     "certifications_subtitle": "What I studied",
     "certifications": "Certifications",
@@ -88,6 +88,6 @@
     "aboutme_content_p1": "Hello and welcome to my website/portfolio.",
     "aboutme_content_p2": "I am a fullstack developer from Recife, Pernambuco, Brazil, with extensive experience and knowledge, working in web application development since 2010.",
     "aboutme_content_p3": "With a career that started in the era of Flash, I have accumulated a broad mastery of development methodologies and tools, communication theory, video editing and assembly, music and sound, design, and typography. My technical versatility and creativity enable me to deliver robust and innovative solutions.",
-    "aboutme_content_p4": "I am passionate about music, playing several string instruments since adolescence, and have a strong connection with cinema, having completed up to the 7th semester of the cinema undergraduate course. In all projects, I apply my four main talents: Logical Reasoning, Sensitivity, Creativity, and Knowledge.",
+    "aboutme_content_p4": "I am passionate about music, playing several string instruments since my tenn years, and have a strong connection with cinema, having completed up to the 7th quarter of the cinema major. In all projects, I apply my four main talents: Logical Reasoning, Sensitivity, Creativity, and Knowledge.",
     "aboutme_content_p5": "If you are looking for a fullstack developer who combines technical expertise with a creative vision, you are in the right place. Let's create something amazing together!"
 }

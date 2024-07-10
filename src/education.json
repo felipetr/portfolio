@@ -17,7 +17,7 @@
       "status": {
         "ptBR": "Incompleto, 7 semestres, 87,5%",
         "esES": "Incompleto, 7 semestres, 87,5%",
-        "enUS": "Incomplete, 7 semesters, 87.5%"
+        "enUS": "Incomplete, 7 quarters, 87.5%"
       }
     },
     {
@@ -37,7 +37,7 @@
       "status": {
         "ptBR": "Trancado, 3 semestres, 75%",
         "esES": "Suspendido, 3 semestres, 75%",
-        "enUS": "On Hold, 3 semesters, 75%"
+        "enUS": "On Hold, 3 quarters, 75%"
       }
     }
   ],
