@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import folio from "@/folio.json";
+import folio from "@/data/folio.json";
 
 export default {
   name: "AboutSection",

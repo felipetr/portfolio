@@ -9,6 +9,7 @@
         <FolioSection/>
         <ProjectsCaroussel/>
         <SkillsSection/>
+        <ExperienceSection/>
         <EducationSection/>
         <ContactSection/>
         <AppFooter/>
@@ -30,6 +31,7 @@ import AboutSection from "@/components/AboutSection.vue";
 import FolioSection from "@/components/FolioSection.vue";
 import ProjectsCaroussel from "@/components/ProjectsSection.vue";
 import SkillsSection from "./components/SkillsSection.vue";
+import ExperienceSection from "./components/ExperienceSection.vue";
 import EducationSection from "./components/EducationSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 import AppLoader from "./components/AppLoader.vue";
@@ -47,6 +49,7 @@ export default defineComponent({
     ProjectsCaroussel,
     SkillsSection,
     EducationSection,
+    ExperienceSection,
     ContactSection,
     AppFooter
   },

@@ -85,8 +85,8 @@
 </template>
 
 <script>
-import skills from "@/skills.json";
-import languageskills from "@/language_skills.json";
+import skills from "@/data/skills.json";
+import languageskills from "@/data/language_skills.json";
 
 export default {
   name: "SkillsSection",

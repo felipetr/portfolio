@@ -4,6 +4,7 @@
     "last_update": "Última Atualização",
     "see_certificate": "Ver Certificado",
     "phone": "Telefone / Celular",
+    "techs": "Tecnologias",
     "this_projetc": "Esse projeto pode ser acessado no ",
     "validation":{
         "required": "Campo Obrigatório!",
@@ -16,6 +17,8 @@
         "keywords": "HTML, CSS, SCSS, Sass, JavaScript, JQuery, TypeScript, PHP Composer, NPM, PHP, Laravel, MySQL, SQL Server, Oracle SQL, PostgreSQL, NoSQL, MongoDB, Wordpress, Bootstrap, Codeigniter, Vue.js, Vuetify, VueCli, Vue Router, React, Angular, Node.js, GIT, UI/UX, APIs REST SOAP, Pegasystems, Outsystems, Adobe Premiere Pro, Adobe After Effects, Adobe Animate, Adobe Photoshop, Adobe Illustrator, Gulp, Testes Unitários Jest PHPUnit, AWS."
     },
     "language_name": "Português",
+    "experiences_title": "Experiências Profissionais",
+    "experiences_subtitle": "Onde eu trabalhei",
     "language": "Idioma",
     "language_skills_title": "Habilidades Linguísticas",
     "language_skills_subtitle": "Minha jornada através dos idiomas",

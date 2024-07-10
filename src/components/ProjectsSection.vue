@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import projectsData from "@/projects.json";
+import projectsData from "@/data/projects.json";
 import ProjectsCarousel from "@/components/ProjectsCarousel.vue";
 
 function chunkProjects(arr, size) {

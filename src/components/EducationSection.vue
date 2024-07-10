@@ -1,5 +1,5 @@
 <template>
-  <section id="education" class="section darkestblue-bg">
+  <section id="education" class="section">
     <v-container>
       <h1 class="text-center">{{ $t("certifications_title") }}</h1>
       <p class="text-center">{{ $t("certifications_subtitle") }}</p>
@@ -14,7 +14,7 @@
               :rounded="true"
               :height="400"
             ></v-skeleton-loader>
-            <v-card v-else :color="blue">
+            <v-card v-else :color="darkestblue">
               <v-card-title :color="green">
                 <h4>{{ card.institution }}</h4>
               </v-card-title>
@@ -51,7 +51,7 @@
       </div>
     </v-container>
   </section>
-  <div class="section">
+  <div class="section darkestblue-bg">
     <v-container>
       <div class="py-4 my-4">
         <h2 class="text-center">{{ $t("certifications") }}</h2>
@@ -64,7 +64,7 @@
               :rounded="true"
               :height="400"
             ></v-skeleton-loader>
-            <v-card v-else :color="darkestblue">
+            <v-card v-else :color="darktblue">
               <v-card-title>
                 <h4>{{ card.name }}</h4>
               </v-card-title>
@@ -99,8 +99,8 @@
 </template>
 
 <script>
-import education from "@/education.json";
-import date from "@/date.json";
+import education from "@/data/education.json";
+import date from "@/data/date.json";
 
 export default {
   name: "ContactSection",
@@ -112,6 +112,7 @@ export default {
       green: process.env.VUE_APP_GREEN,
       blue: process.env.VUE_APP_BLUE,
       darkestblue: process.env.VUE_APP_DARKEST_BLUE,
+      darktblue: process.env.VUE_APP_DARK_BLUE,
     };
   },
   methods: {

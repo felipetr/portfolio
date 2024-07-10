@@ -1,0 +1,372 @@
+{
+  "experiences": [
+    {
+      "show": false,
+      "company": "Accenture do Brasil",
+      "job": {
+        "ptBR": "Analista Sênior",
+        "esES": "Analista Senior",
+        "enUS": "Senior Analyst"
+      },
+      "city": {
+        "ptBR": "Recife-PE",
+        "esES": "Recife-PE - Brasil",
+        "enUS": "Recife-PE - Brazil"
+      },
+      "since": "2021",
+      "to": "2024",
+      "description": {
+        "ptBR": "Sustentação e bugfix em projetos dos setores de seguro e bancário em Pegasystems 8, desenvolvimento em projeto Pegasystems 8 do setor de seguros, Desenvolvimento PHP (Magento e Laravel) em projeto do setor de varejo, desenvolvimento de projeto em Outsystems para o setor financeiro.",
+        "esES": "Soporte y corrección de errores en proyectos en los sectores de seguros y bancario en Pegasystems 8, desarrollo en proyecto Pegasystems 8 en el sector de seguros, desarrollo PHP (Magento y Laravel) en proyecto del sector minorista, desarrollo de proyecto en Outsystems para el sector financiero.",
+        "enUS": "Support and bugfix on projects in the insurance and banking sectors on Pegasystems 8, development on Pegasystems 8 project in the insurance sector, PHP development (Magento and Laravel) on retail sector project, development of Outsystems project for the financial sector."
+      },
+      "techs": [
+        "Pegasystems",
+        "PHP",
+        "Laravel",
+        "Magento",
+        "ArgoCD",
+        "MySQL",
+        "Oracle SQL",
+        "Service Now",
+        "MongoDB",
+        "GIT",
+        "Javascript",
+        "React",
+        "Json",
+        "DevOps",
+        "Docker",
+        "Linux",
+        "AWS",
+        "Node.js",
+        "Outsystems"
+      ]
+    },
+    {
+      "show": false,
+      "company": "Accenture do Brasil",
+      "job": {
+        "ptBR": "Analista",
+        "esES": "Analista",
+        "enUS": "Analyst"
+      },
+      "city": {
+        "ptBR": "Recife-PE",
+        "esES": "Recife-PE - Brasil",
+        "enUS": "Recife-PE - Brazil"
+      },
+      "since": "2019",
+      "to": "2020",
+      "description": {
+        "ptBR": "Sustentação e bugfix em projet em Pegasystems 7.4 do setor telecomunicações.",
+        "esES": "Soporte y corrección de errores en proyectos en PegaSystems 7.4 en el sector de telecomunicaciones.",
+        "enUS": "Support and bugfix on projects in PegaSystems 7.4 in the telecommunications sector."
+      },
+      "techs": [
+        "Pegasystems",
+        "MySQL",
+        "Oracle SQL",
+        "Javascript",
+        "React",
+        "Json",
+        "DevOps",
+        "AWS"
+      ]
+    },
+    {
+      "show": false,
+      "company": "Gerens Comunicação",
+      "job": {
+        "ptBR": "Desenvolvedor Fullstack",
+        "esES": "Desenrolador Fullstack",
+        "enUS": "Fullstack Developer"
+      },
+      "city": {
+        "ptBR": "Recife-PE",
+        "esES": "Recife-PE - Brasil",
+        "enUS": "Recife-PE - Brazil"
+      },
+      "since": "2018",
+      "to": "2019",
+      "description": {
+        "ptBR": "Desenvolvimento de sites institucionais e mobile app em CMS próprio (no framework Codeigniter) e em Wordpress. Projeto de interface e experiência de usuário. Montagem e edição de vídeos institucionais.",
+        "esES": "Desarrollo de sitios web institucionales y aplicaciones móviles en CMS propio (en el framework CodeIgniter) y en Wordpress. Diseño de interfaz de usuario y experiencia de usuario. Montaje y edición de videos institucionales.",
+        "enUS": "Development of institutional websites and mobile apps in own CMS (on the CodeIgniter framework) and in Wordpress. User interface and user experience design. Assembly and editing of institutional videos."
+      },
+      "techs": [
+        "PHP",
+        "Codeigniter",
+        "Wordpress",
+        "CSS",
+        "SASS",
+        "GIT",
+        "Json",
+        "UI/UX",
+        "MySQL",
+        "Apache",
+        "Javascript",
+        "JQuery",
+        "Bootstrap",
+        "Ajax",
+        "Adobe Photoshop",
+        "Adobe Animate",
+        "Adobe After Effects",
+        "Adobe Premiere Pro"
+      ]
+    },
+    {
+      "show": false,
+      "company": "Bee Technology",
+      "job": {
+        "ptBR": "Desenvolvedor FrontEnd",
+        "esES": "Desenrolador FrontEnd",
+        "enUS": "FrontEnd Developer"
+      },
+      "city": {
+        "ptBR": "Recife-PE",
+        "esES": "Recife-PE - Brasil",
+        "enUS": "Recife-PE - Brazil"
+      },
+      "since": "2018",
+      "to": "2018",
+      "description": {
+        "ptBR": "Desenvolvimento frontend de plataforma de cryptocurrency.",
+        "esES": "Desarrollo frontend de plataforma de criptomonedas.",
+        "enUS": "Frontend development of cryptocurrency platform."
+      },
+      "techs": [
+        "PHP",
+        "Laravel",
+        "GIT",
+        "UI/UX",
+        "Json",
+        "MySQL",
+        "PostgreeSQL",
+        "Javascript",
+        "JQuery",
+        "Bootstrap",
+        "Ajax",
+        "Adobe Photoshop",
+        "Adobe Animate",
+        "Adobe After Effects",
+        "Adobe Premiere Pro"
+      ]
+    },
+    {
+      "show": false,
+      "company": "S. Toledo",
+      "job": {
+        "ptBR": "Desenvolvedor FrontEnd",
+        "esES": "Desenrolador FrontEnd",
+        "enUS": "FrontEnd Developer"
+      },
+      "city": {
+        "ptBR": "Campina Grande-PB",
+        "esES": "Campina Grande-PB - Brasil",
+        "enUS": "Campina Grande-PB - Brazil"
+      },
+      "since": "2015",
+      "to": "2018",
+      "description": {
+        "ptBR": "Desenvolvimento Front End de sites institucionais e mobile app em CMS próprio (no framework Laravel) e em Joomla. Projeto de interface e experiência de usuário. Montagem e edição de vídeos institucionais.",
+        "esES": "Desarrollo Frontend de sitios web institucionales y aplicaciones móviles en CMS propio (en el framework Laravel) y en Joomla. Diseño de interfaz de usuario y experiencia de usuario. Montaje y edición de vídeos institucionales.",
+        "enUS": "Frontend development of institutional websites and mobile apps in own CMS (on the Laravel framework) and in Joomla. User interface and user experience design. Assembly and editing of institutional videos."
+      },
+      "techs": [
+        "PHP",
+        "Laravel",
+        "Joomla",
+        "GIT",
+        "UI/UX",
+        "Json",
+        "MySQL",
+        "PostgreeSQL",
+        "Javascript",
+        "JQuery",
+        "Bootstrap",
+        "Ajax",
+        "Adobe Photoshop",
+        "Adobe Animate",
+        "Adobe After Effects",
+        "Adobe Premiere Pro"
+      ]
+    },
+    {
+      "show": false,
+      "company": "Mais Propaganda",
+      "job": {
+        "ptBR": "Desenvolvedor Fullstack",
+        "esES": "Desenrolador Fullstack",
+        "enUS": "Fullstack Developer"
+      },
+      "city": {
+        "ptBR": "Campina Grande-PB",
+        "esES": "Campina Grande-PB - Brasil",
+        "enUS": "Campina Grande-PB - Brazil"
+      },
+      "since": "2013",
+      "to": "2015",
+      "description": {
+        "ptBR": "Desenvolvimento de sites institucionais em Wordpress. Projeto de interface e experiência de usuário. Montagem e edição de vídeos institucionais.",
+        "esES": "Desarrollo de sitios web institucionales en Wordpress. Diseño de interfaz de usuario y experiencia de usuario. Montaje y edición de vídeos institucionales.",
+        "enUS": "Development of institutional websites in Wordpress. User interface and user experience design. Assembly and editing of institutional videos."
+      },
+      "techs": [
+        "PHP",
+        "Wordpress",
+        "GIT",
+        "UI/UX",
+        "Json",
+        "MySQL",
+        "Javascript",
+        "JQuery",
+        "Bootstrap",
+        "Ajax",
+        "Adobe Photoshop",
+        "Adobe Animate",
+        "Adobe After Effects",
+        "Adobe Premiere Pro"
+      ]
+    },
+    {
+      "show": false,
+      "company": "Insideweb",
+      "job": {
+        "ptBR": "Desenvolvedor FrontEnd",
+        "esES": "Desenrolador FrontEnd",
+        "enUS": "FrontEnd Developer"
+      },
+      "city": {
+        "ptBR": "Campina Grande-PB",
+        "esES": "Campina Grande-PB - Brasil",
+        "enUS": "Campina Grande-PB - Brazil"
+      },
+      "since": "2014",
+      "to": "2014",
+      "description": {
+        "ptBR": "Desenvolvimento de sites institucionais em Wordpress. Projeto de interface e experiência de usuário. Montagem e edição de vídeos institucionais.",
+        "esES": "Desarrollo de sitios web institucionales en Wordpress. Diseño de interfaz de usuario y experiencia de usuario. Montaje y edición de vídeos institucionales.",
+        "enUS": "Development of institutional websites in Wordpress. User interface and user experience design. Assembly and editing of institutional videos."
+      },
+      "techs": [
+        "PHP",
+        "Wordpress",
+        "GIT",
+        "UI/UX",
+        "Json",
+        "MySQL",
+        "Javascript",
+        "JQuery",
+        "Bootstrap",
+        "Ajax",
+        "Adobe Photoshop",
+        "Adobe Animate",
+        "Adobe After Effects",
+        "Adobe Premiere Pro"
+      ]
+    },
+    {
+      "show": false,
+      "company": "Mov Comunicação",
+      "job": {
+        "ptBR": "Desenvolvedor Fullstack",
+        "esES": "Desenrolador Fullstack",
+        "enUS": "Fullstack Developer"
+      },
+      "city": {
+        "ptBR": "Campina Grande-PB",
+        "esES": "Campina Grande-PB - Brasil",
+        "enUS": "Campina Grande-PB - Brazil"
+      },
+      "since": "2013",
+      "to": "2014",
+      "description": {
+        "ptBR": "Desenvolvimento de sites institucionais em Wordpress. Projeto de interface e experiência de usuário. Montagem e edição de vídeos institucionais.",
+        "esES": "Desarrollo de sitios web institucionales en Wordpress. Diseño de interfaz de usuario y experiencia de usuario. Montaje y edición de vídeos institucionales.",
+        "enUS": "Development of institutional websites in Wordpress. User interface and user experience design. Assembly and editing of institutional videos."
+      },
+      "techs": [
+        "PHP",
+        "Wordpress",
+        "GIT",
+        "UI/UX",
+        "Json",
+        "MySQL",
+        "Javascript",
+        "JQuery",
+        "Ajax",
+        "Adobe Photoshop",
+        "Adobe Animate",
+        "Adobe After Effects",
+        "Adobe Premiere Pro"
+      ]
+    },
+    {
+      "show": false,
+      "company": "Gerens Gestão em Comunicação",
+      "job": {
+        "ptBR": "Desenvolvedor Fullstack",
+        "esES": "Desenrolador Fullstack",
+        "enUS": "Fullstack Developer"
+      },
+      "city": {
+        "ptBR": "Recife-PE",
+        "esES": "Recife-PE- Brasil",
+        "enUS": "Recife-PE - Brazil"
+      },
+      "since": "2011",
+      "to": "2013",
+      "description": {
+        "ptBR": "Desenvolvimento de sites institucionais em Flash. Projeto de interface e experiência de usuário. Montagem e edição de vídeos institucionais.",
+        "esES": "Desarrollo de sitios web institucionales en Flash. Diseño de interfaz y experiencia de usuario. Montaje y edición de vídeos institucionales.",
+        "enUS": "Development of institutional websites in Flash. User interface and user experience design. Assembly and editing of institutional videos."
+      },
+      "techs": [
+        "PHP",
+        "Wordpress",
+        "GIT",
+        "UI/UX",
+        "Json",
+        "MySQL",
+        "Javascript",
+        "JQuery",
+        "Adobe Flash",
+        "XML",
+        "ActionScript 3",
+        "Ajax",
+        "Adobe Photoshop",
+        "Adobe Animate",
+        "Adobe After Effects",
+        "Adobe Premiere Pro"
+      ]
+    },
+    {
+      "show": false,
+      "company": "EAD-UFRPE (Educação a Distância - Universidade Federal Rural de Pernambuco)",
+      "job": {
+        "ptBR": " Contrato de Prestação de Serviço (Filmagem e Edição de Vídeo)",
+        "esES": "Contrato de Prestación de Servicio (Filmación y Edición de Video)",
+        "enUS": "Service Agreement (Filming and Video Editing)"
+      },
+      "city": {
+        "ptBR": "Recife-PE",
+        "esES": "Recife-PE- Brasil",
+        "enUS": "Recife-PE - Brazil"
+      },
+      "since": "2011",
+      "to": "2013",
+      "description": {
+        "ptBR": "Captação, montagem e edição de vídeo para os cursos de ensino à distância da Universidade Federal Rural de Pernambuco.",
+        "esES": "Grabación, montaje y edición de videos para los cursos de educación a distancia de la Universidad Federal Rural de Pernambuco.",
+        "enUS": "Filming, assembly, and editing of videos for the distance learning courses at the Federal Rural University of Pernambuco"
+      },
+      "techs": [
+        "Apple Final Cut",
+        "Adobe Photoshop",
+        "Adobe Flash",
+        "Adobe After Effects",
+        "Adobe Premiere Pro"
+      ]
+    }
+  ]
+}

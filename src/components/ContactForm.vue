@@ -65,7 +65,7 @@
 </template>
 
 <script>
-import countries from "@/countries.json";
+import countries from "@/data/countries.json";
 import axios from "axios";
 
 export default {

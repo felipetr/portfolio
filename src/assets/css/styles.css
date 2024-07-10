@@ -364,6 +364,12 @@ hr {
 {
   text-align: right;
 }
+.city
+{
+  color: #fff;
+  float: right;
+  font-family: "Sen", sans-serif;
+}
 @media (max-width: 480px) {
   .sociallinks {
     display: none;

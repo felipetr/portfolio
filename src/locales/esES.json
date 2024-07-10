@@ -6,6 +6,7 @@
     "credential_code": "Código de credencial",
     "this_projetc": "Este proyecto se puede acceder en ",
     "phone": "Teléfono / Celular / Móvil",
+    "techs": "Tecnologías",
     "validation":{
         "required": "Campo Obrigatório!",
         "invalid_email": "E-mail inválido!"
@@ -16,6 +17,8 @@
         "keywords": "HTML, CSS, SCSS, Sass, JavaScript, JQuery, TypeScript, PHP Composer, NPM, PHP, Laravel, MySQL, SQL Server, Oracle SQL, PostgreSQL, NoSQL, MongoDB, Wordpress, Bootstrap, Codeigniter, Vue.js, Vuetify, VueCli, Vue Router, React, Angular, Node.js, GIT, UI/UX, APIs REST SOAP, Pegasystems, Outsystems, Adobe Premiere Pro, Adobe After Effects, Adobe Animate, Adobe Photoshop, Adobe Illustrator, Gulp, Pruebas Unitarias Jest PHPUnit, AWS."
     },    
     "language_name": "Español",
+    "experiences_title": "Experiencias Profesionales",
+    "experiences_subtitle": "Donde he trabajado",    
     "language": "Idioma",
     "language_skills_title": "Habilidades Lingüísticas",
     "language_skills_subtitle": "Mi viaje a través de los idiomas",
