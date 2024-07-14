@@ -237,6 +237,9 @@ h6 {
 .dnone {
   display: none;
 }
+.dblock {
+  display: block;
+}
 .blureffect {
   -webkit-backdrop-filter: saturate(200%) blur(20px);
   backdrop-filter: saturate(200%) blur(10px);
@@ -334,7 +337,7 @@ hr {
 .sociallinks {
   position: fixed;
   z-index: 24;
-  left: 0;
+  left: 11px;
   top: 20px;
 }
 
@@ -401,12 +404,25 @@ hr {
   font-family: "Sen", sans-serif;
   display: block;
 }
+.w100
+{
+  width: 100%;
+}
 @media (max-width: 480px) {
   .sociallinks {
     display: none;
   }
 }
 @media (min-width: 720px) {
+  .d-md-none {
+    display: none;
+  }
+  .d-md-block {
+    display: block;
+  }
+  .d-md-inline-block {
+    display: inline-block;
+  }
   .city
   {
     float: right;
