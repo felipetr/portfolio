@@ -64,36 +64,3 @@ Installation
     npm run serve
 
 Please note that you need to rename `.env.example` to `.env` before setting up the environment variables.
-
-Dependencies Updates
---------------------
-
-Update dependencies to the following versions:
-
-"dependencies": {
-  "@mdi/font": "5.9.55",
-  "@vueuse/head": "^2.0.0",
-  "axios": "^1.7.2",
-  "vue": "^3.2.13",
-  "vue-i18n": "^9.13.1",
-  "vue-recaptcha-v3": "^2.0.1",
-  "vue-router": "^4.0.13",
-  "vuetify": "^3.0.0-beta.0",
-  "webfontloader": "^1.0.0"
-},
-"devDependencies": {
-  "@babel/core": "^7.12.16",
-  "@babel/eslint-parser": "^7.12.16",
-  "@vue/cli-plugin-babel": "~5.0.0",
-  "@vue/cli-plugin-eslint": "~5.0.0",
-  "@vue/cli-service": "~5.0.0",
-  "@vue/eslint-config-airbnb": "^6.0.0",
-  "depcheck": "^1.4.7",
-  "eslint": "^7.32.0",
-  "eslint-plugin-import": "^2.25.3",
-  "eslint-plugin-vue": "^8.0.3",
-  "eslint-plugin-vuejs-accessibility": "^1.1.0",
-  "gulp": "^5.0.0",
-  "vue-cli-plugin-vuetify": "~2.5.8",
-  "webpack-plugin-vuetify": "^2.0.0-alpha.0"
-}
