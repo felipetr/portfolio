@@ -7,7 +7,7 @@
     "phone": "Telefone / Celular",
     "contact_phone": "Telefone",
     "techs": "Tecnologias",
-    "this_projetc": "Esse projeto pode ser acessado no ",
+    "this_projetc": "O repositório desse projeto pode ser acessado no ",
     "validation":{
         "required": "Campo Obrigatório!",
         "invalid_email": "E-mail inválido!"

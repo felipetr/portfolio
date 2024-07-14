@@ -10,7 +10,10 @@
             ></small
           >
           <v-divider></v-divider>
-          <small>{{ $t("this_projetc") }} <a targuet class="a-green">GitHub</a></small>
+          <small>{{ $t("this_projetc") }} <a target="_blank" href="https://github.com/felipetr/portfolio" class="a-green">GitHub</a></small>
+          <div>
+            <small>v{{ version }}</small>
+          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -18,10 +21,13 @@
 </template>
 
 <script>
+import packageJson from '@/../package.json';
+
 export default {
   name: "AppFooter",
   data() {
     return {
+      version: packageJson.version,
       siteTitle: process.env.VUE_APP_TITLE,
       footerBlue: process.env.VUE_APP_FOOTER_BLUE,
     };
