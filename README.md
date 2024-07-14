@@ -1,3 +1,5 @@
+![Screenshot](https://github.com/felipetr/portfolio/blob/main/src/assets/images/cover.jpg?raw=true)
+
 Felipe Travassos - Portfolio
 ============================
 
