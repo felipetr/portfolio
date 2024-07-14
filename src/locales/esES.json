@@ -6,6 +6,7 @@
     "credential_code": "Código de credencial",
     "this_projetc": "Este proyecto se puede acceder en ",
     "phone": "Teléfono / Celular / Móvil",
+    "contact_phone": "Teléfono / Celular / Móvil",
     "techs": "Tecnologías",
     "validation":{
         "required": "Campo Obrigatório!",
@@ -22,7 +23,7 @@
     "language": "Idioma",
     "language_skills_title": "Habilidades Lingüísticas",
     "language_skills_subtitle": "Mi viaje a través de los idiomas",
-    "language_skills_subtitle": {
+    "language_skills": {
         "a1": {
             "title": "A1 - Principiante",
             "desc": "Puedo entender y usar expresiones familiares y cotidianas, así como frases muy básicas destinadas a satisfacer necesidades concretas."

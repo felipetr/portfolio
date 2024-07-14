@@ -5,6 +5,7 @@
     "see_certificate": "See Certificate",
     "this_projetc": "This project can be accessed on ",
     "phone": "Phone / Mobile",
+    "contact_phone": "Phone",
     "credential_code": "Credential Code",
     "validation":{
         "required": "Required field!",

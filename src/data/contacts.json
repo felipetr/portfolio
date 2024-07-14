@@ -1,0 +1,33 @@
+{
+  "contacts": [
+    {
+      "icon": "envelope",
+      "title": "Email",
+      "text": "contato@felipetravassos.com",
+      "url": "mailto:contato@felipetravassos.com"
+    },
+    {
+      "icon": "phone",
+      "title": "contact_phone",
+      "text": "+55 81 9 9827.7376",
+      "url": "tel:+5581998277376"
+    }
+  ],
+  "socialmedias": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/felipe-travassos-b5322934/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/felipetr",
+      "icon": "github"
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=5581998277376",
+      "icon": "whatsapp"
+    }
+  ]
+}

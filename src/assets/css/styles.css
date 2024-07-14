@@ -1,6 +1,31 @@
-@import url(https://db.onlinewebfonts.com/c/ea250342ec4016561ba9e791c2f39c11?family=Posterama+2001+W04+Regular);
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
+@font-face{
+  font-family: "Posterama";
+  src: url("./fonts/posterama.eot");
+  src: url("./fonts/posterama.eot?#iefix")format("embedded-opentype"),
+      url("./fonts/posterama.woff")format("woff"),
+      url("./fonts/posterama.woff2")format("woff2"),
+      url("./fonts/posterama.ttf")format("truetype"),
+      url("./fonts/posterama.svg#Posterama")format("svg");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+.adjust-margin
+{
+  display: inline-block;
+  margin-left: 11px;
+}
+.break-space,
+.break-word
+{
+  white-space:normal !important;
+}
+.break-word
+{
+  word-break: break-all;
+}
 *,
 :root {
   --blue: #2c3159;  
@@ -56,7 +81,7 @@
 
 .footer
 {
-  padding: 30px 0;
+  padding: 30px 0 90px 0;
 }
 .prevBtn {
   background: rgb(20, 21, 32);
@@ -134,7 +159,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Posterama 2001 W04 Regular", sans-serif !important;
+  font-family: "Posterama", sans-serif !important;
   color: var(--green);
 }
 .nodecoration {
@@ -288,18 +313,24 @@ hr {
   padding-top: 12px;
 }
 
-.social-icon {
+.social-icon, .contact-icon {
   margin: 10px;
   transition: all 0.3s ease;
-  font-size: 24px;
+  text-decoration: none !important;
   color: #fff;
 
 }
 .social-icon:hover,
-.headerbars:hover {
+.headerbars:hover,
+.contact-icon:hover {
   color: var(--green) !important;
 }
 
+
+.social-icon {
+
+  font-size: 24px;
+}
 .sociallinks {
   position: fixed;
   z-index: 24;
@@ -367,11 +398,32 @@ hr {
 .city
 {
   color: #fff;
-  float: right;
   font-family: "Sen", sans-serif;
+  display: block;
 }
 @media (max-width: 480px) {
   .sociallinks {
     display: none;
+  }
+}
+@media (min-width: 720px) {
+  .city
+  {
+    float: right;
+  }
+}
+@media (max-width: 719px) {
+  .sm-100
+  {
+    width: 100%;
+    
+  }
+  .sm-100 *
+  {
+    white-space:normal !important;
+  }
+  .sm-small
+  {
+    font-size: 15px;
   }
 }

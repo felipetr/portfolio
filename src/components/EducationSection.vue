@@ -15,7 +15,7 @@
               :height="400"
             ></v-skeleton-loader>
             <v-card v-else :color="darkestblue">
-              <v-card-title :color="green">
+              <v-card-title class="break-space"  :color="green">
                 <h4>{{ card.institution }}</h4>
               </v-card-title>
 
@@ -65,7 +65,7 @@
               :height="400"
             ></v-skeleton-loader>
             <v-card v-else :color="darktblue">
-              <v-card-title>
+              <v-card-title class="break-space" >
                 <h4>{{ card.name }}</h4>
               </v-card-title>
 
@@ -79,13 +79,17 @@
                   <v-col v-if="card.code"  variant="plain">
                     <div style="position: relative; left: -15px">
                       <v-chip  variant="text" color="#fff">{{ $t("credential_code") }}: </v-chip>
-                      <v-chip :color="green">{{ card.code }} </v-chip>
+                      <span class="adjust-margin">
+                        <v-chip class="break-word" :color="green">{{ card.code }} </v-chip>
+                      </span>
                     </div>
                   </v-col>
                   <v-col v-if="card.validation_url" class="text-end">
                     <a :href="card.validation_url" target="_blank">
                       <div class="d-none">{{ $t("see_certificate") }}</div>
-                      <v-btn :color="green" :text="$t('see_certificate')"></v-btn>
+                      <v-btn class="max-100 sm-100"
+                      :color="green"
+                      :text="$t('see_certificate')"></v-btn>
                     </a>
                   </v-col>
                 </v-row>

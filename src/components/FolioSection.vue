@@ -16,7 +16,7 @@
                 ></v-img>
               </div>
 
-              <v-card-title class="green-color">
+              <v-card-title class="green-color break-space">
                 {{ card.cardtitle }}
               </v-card-title>
 

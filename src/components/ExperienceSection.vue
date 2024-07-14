@@ -8,7 +8,7 @@
           <v-skeleton-loader v-if="loading" type="card" :rounded="true" :height="400">
           </v-skeleton-loader>
           <v-card v-else :color="darkblue">
-            <v-card-title>
+            <v-card-title class="break-space">
               <h4>
                 {{ card.company }}
                 <small class="city" v-if="this.$i18n.locale === 'pt-BR'">{{
@@ -39,7 +39,7 @@
                 <div style="margin: -6px -3px">
                   <v-chip
                     style="margin: 6px 3px"
-                    color="green"
+                    :color="green"
                     v-for="(tech, key) in card.techs"
                     :key="key"
                   >

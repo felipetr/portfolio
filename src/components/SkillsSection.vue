@@ -55,7 +55,7 @@
             <v-skeleton-loader v-if="loading" type="card"
             :rounded="true" :height="400"></v-skeleton-loader>
             <v-card v-else :color="blue">
-                <v-card-title>
+                <v-card-title class="break-space" >
                   {{ $t(`${lang.lang}`) }}
                 </v-card-title>
 
