@@ -1,6 +1,35 @@
 {
   "experiences": [
     {
+      "company": "BuildBox",
+      "job":
+      {
+        "ptBR": "Desenvolvedor Sênior",
+        "esES": "Desenrolador Senior",
+        "enUS": "Senior Developer"
+      },
+      "city":
+      {
+        "ptBR": "Recife-PE",
+        "esES": "Recife-PE - Brasil",
+        "enUS": "Recife-PE - Brazil"
+      },
+      "since":"2024",
+      "to": "2024",
+      "description":
+      {
+        "ptBR": "Desenvolvimento e sustentação de plugins e temas Wordpress.",
+        "esES": "Desarrollo y mantenimiento de plugins y temas de WordPress.",
+        "enUS": "Development and maintenance of WordPress plugins and themes."
+      },
+      "techs":
+      [
+        "PHP",
+        "Javascript",
+        "Wordpress"
+      ]
+    },
+    {
       "show": false,
       "company": "Accenture do Brasil",
       "job": {

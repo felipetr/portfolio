@@ -44,6 +44,7 @@ Development Dependencies
 *   **vue-cli-plugin-vuetify**: Vuetify integration for Vue CLI.
 *   **webpack-plugin-vuetify**: Vuetify webpack plugin.
 
+
 Installation
 ------------
 
@@ -58,9 +59,13 @@ Installation
 3.  Install dependencies:
 
     npm install
-
 4.  Serve the application:
 
     npm run serve
 
 Please note that you need to rename `.env.example` to `.env` before setting up the environment variables.
+
+Building
+------------
+
+    npm run build
