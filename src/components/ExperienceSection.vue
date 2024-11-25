@@ -11,19 +11,27 @@
             <v-card-title class="break-space">
               <h4>
                 {{ card.company }}
-                <small class="city" v-if="this.$i18n.locale === 'pt-BR'">{{
-                  card.city.ptBR
-                }}</small>
-              </h4>
+                <small class="city" v-if="this.$i18n.locale === 'pt-BR'">
+                {{ card.city.ptBR }}</small>
 
-              <small v-if="this.$i18n.locale === 'es-ES'">{{ card.city.esES }}</small>
-              <small v-if="this.$i18n.locale === 'en-US'">{{ card.city.enUS }}</small>
+                <small class="city" v-if="this.$i18n.locale === 'es-ES'">
+                  {{ card.city.esES }}
+                </small>
+                <small class="city" v-if="this.$i18n.locale === 'en-US'">
+                  {{ card.city.enUS }}
+                </small>
+              </h4>
 
               <div v-if="this.$i18n.locale === 'pt-BR'">{{ card.job.ptBR }}</div>
               <div v-if="this.$i18n.locale === 'es-ES'">{{ card.job.esES }}</div>
               <div v-if="this.$i18n.locale === 'en-US'">{{ card.job.enUS }}</div>
             </v-card-title>
-            <v-card-subtitle> {{ card.since }} - {{ card.to }} </v-card-subtitle>
+            <v-card-subtitle
+              ><span>{{ card.since }}</span>
+              <span> - </span>
+              <span v-if="card.to">{{ card.to }}</span>
+              <span v-else>{{ $t("now") }}</span>
+            </v-card-subtitle>
             <v-card-text>
               <v-divider></v-divider>
               <div v-if="this.$i18n.locale === 'pt-BR'">{{ card.description.ptBR }}</div>

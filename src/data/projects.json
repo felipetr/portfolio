@@ -17,12 +17,16 @@
       "title": "Accenture"
     },
     {
-      "logo": "amil.svg",
-      "title": "Amil"
+      "logo": "capgemini.svg",
+      "title": "Capgemini"
     },
     {
       "logo": "oi.svg",
       "title": "Oi"
+    },
+    {
+      "logo": "amil.svg",
+      "title": "Amil"
     },
     {
       "logo": "pefisa.svg",
@@ -47,6 +51,26 @@
     {
       "logo": "abdaex.svg",
       "title": "ABDAEX - Associação Brasileira de Direito Aduaneiro e Fomento ao Comércio Exterior"
+    },
+    {
+      "logo": "gerens.svg",
+      "title": "Gerens"
+    },
+    {
+      "logo": "mais.svg",
+      "title": "Mais Propaganda"
+    },
+    {
+      "logo": "tudo.svg",
+      "title": "Tudo Agência"
+    },
+    {
+      "logo": "stoledo.svg",
+      "title": "S Toledo Publicidade"
+    },
+    {
+      "logo": "buildbox.svg",
+      "title": "Buildbox"
     }
   ]
 }

@@ -1,6 +1,34 @@
 {
   "experiences": [
     {
+      "company": "Capgemini",
+      "job":
+      {
+        "ptBR": "Desenvolvedor Pegasystems",
+        "esES": "Desenrolador Pegasystems",
+        "enUS": "Pegasystems Developer"
+      },
+      "city":
+      {
+        "ptBR": "Remoto",
+        "esES": "Remoto",
+        "enUS": "Remote"
+      },
+      "since":"2024",
+      "description":
+      {
+        "ptBR": "Desenvolvimento de projeto em Pegasystems para o setor de telecomunicações.",
+        "esES": "Desarrollo de un proyecto en Pegasystems para el sector de telecomunicaciones.",
+        "enUS": "Development of a Pegasystems project for the telecommunications sector."
+      },
+      "techs":
+      [
+        "Pegasystems",
+        "MySQL",       
+        "Javascript"
+      ]
+    },
+    {
       "company": "BuildBox",
       "job":
       {
@@ -10,9 +38,9 @@
       },
       "city":
       {
-        "ptBR": "Recife-PE",
-        "esES": "Recife-PE - Brasil",
-        "enUS": "Recife-PE - Brazil"
+        "ptBR": "Remoto",
+        "esES": "Remoto",
+        "enUS": "Remote"
       },
       "since":"2024",
       "to": "2024",
@@ -38,9 +66,9 @@
         "enUS": "Senior Analyst"
       },
       "city": {
-        "ptBR": "Recife-PE",
-        "esES": "Recife-PE - Brasil",
-        "enUS": "Recife-PE - Brazil"
+        "ptBR": "Remoto",
+        "esES": "Remoto",
+        "enUS": "Remote"
       },
       "since": "2021",
       "to": "2024",
